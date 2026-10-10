@@ -1,0 +1,6889 @@
+{
+  "format": "hz-namebuilder-project",
+  "version": 1,
+  "meta": {
+    "name": "完全原版字库",
+    "author": "",
+    "created": "2026-10-11 00:03:09",
+    "modified": "2026-10-11 00:31:35",
+    "note": ""
+  },
+  "options": {
+    "page_size": 28,
+    "namespace": "hz_nb",
+    "mod_name": "组词自定义国名",
+    "output_dir": "F:\\WorkPlace\\.ProjectsDateless\\自定义国名\\tools\\组词自定义国名工具\\生成的mod",
+    "sort_mode": "region_pinyin",
+    "auto_sort": true
+  },
+  "regions": [
+    {
+      "id": "ZH",
+      "name": "中华区域"
+    },
+    {
+      "id": "EA",
+      "name": "东亚区域"
+    },
+    {
+      "id": "TAT",
+      "name": "鞑靼大区"
+    },
+    {
+      "id": "WEU",
+      "name": "西欧区域"
+    },
+    {
+      "id": "CEU",
+      "name": "中欧区域"
+    },
+    {
+      "id": "EEU",
+      "name": "东欧区域"
+    },
+    {
+      "id": "MEAST",
+      "name": "中东区域"
+    },
+    {
+      "id": "NAFR",
+      "name": "北非区域"
+    },
+    {
+      "id": "SAFR",
+      "name": "南非区域"
+    },
+    {
+      "id": "IND",
+      "name": "印度大区"
+    },
+    {
+      "id": "EIND",
+      "name": "东印度大区"
+    },
+    {
+      "id": "OCE",
+      "name": "大洋洲大区"
+    },
+    {
+      "id": "NAME",
+      "name": "北美大区"
+    },
+    {
+      "id": "SAME",
+      "name": "中南美区域"
+    }
+  ],
+  "prefixes": [
+    "大",
+    "中",
+    "东",
+    "西",
+    "南",
+    "北",
+    "新",
+    "圣"
+  ],
+  "suffixes": [
+    "国",
+    "帝国",
+    "王国",
+    "王朝",
+    "联邦",
+    "汗国",
+    "公国",
+    "共和国"
+  ],
+  "names": [
+    {
+      "name": "顺",
+      "region": "ZH",
+      "tag": "CSH",
+      "note": "",
+      "seq": 1
+    },
+    {
+      "name": "晋",
+      "region": "ZH",
+      "tag": "JIN",
+      "note": "",
+      "seq": 2
+    },
+    {
+      "name": "梁",
+      "region": "ZH",
+      "tag": "LNG",
+      "note": "",
+      "seq": 3
+    },
+    {
+      "name": "齐",
+      "region": "ZH",
+      "tag": "QIC",
+      "note": "",
+      "seq": 4
+    },
+    {
+      "name": "秦",
+      "region": "ZH",
+      "tag": "QIN",
+      "note": "",
+      "seq": 5
+    },
+    {
+      "name": "清",
+      "region": "ZH",
+      "tag": "QNG",
+      "note": "",
+      "seq": 6
+    },
+    {
+      "name": "唐",
+      "region": "ZH",
+      "tag": "TNG",
+      "note": "",
+      "seq": 7
+    },
+    {
+      "name": "燕",
+      "region": "ZH",
+      "tag": "YAN",
+      "note": "",
+      "seq": 8
+    },
+    {
+      "name": "元",
+      "region": "ZH",
+      "tag": "YUA",
+      "note": "",
+      "seq": 9
+    },
+    {
+      "name": "大理",
+      "region": "ZH",
+      "tag": "CDL",
+      "note": "",
+      "seq": 10
+    },
+    {
+      "name": "彝",
+      "region": "ZH",
+      "tag": "CYI",
+      "note": "",
+      "seq": 11
+    },
+    {
+      "name": "周",
+      "region": "ZH",
+      "tag": "CZH",
+      "note": "",
+      "seq": 12
+    },
+    {
+      "name": "孟卯",
+      "region": "ZH",
+      "tag": "MMA",
+      "note": "",
+      "seq": 13
+    },
+    {
+      "name": "蜀",
+      "region": "ZH",
+      "tag": "SHU",
+      "note": "",
+      "seq": 14
+    },
+    {
+      "name": "长生",
+      "region": "ZH",
+      "tag": "CGS",
+      "note": "",
+      "seq": 15
+    },
+    {
+      "name": "楚",
+      "region": "ZH",
+      "tag": "CHC",
+      "note": "",
+      "seq": 16
+    },
+    {
+      "name": "苗",
+      "region": "ZH",
+      "tag": "CMI",
+      "note": "",
+      "seq": 17
+    },
+    {
+      "name": "西",
+      "region": "ZH",
+      "tag": "CXI",
+      "note": "",
+      "seq": 18
+    },
+    {
+      "name": "东宁",
+      "region": "ZH",
+      "tag": "FRM",
+      "note": "",
+      "seq": 19
+    },
+    {
+      "name": "淮",
+      "region": "ZH",
+      "tag": "HUA",
+      "note": "",
+      "seq": 20
+    },
+    {
+      "name": "闽",
+      "region": "ZH",
+      "tag": "MIN",
+      "note": "",
+      "seq": 21
+    },
+    {
+      "name": "明",
+      "region": "ZH",
+      "tag": "MNG",
+      "note": "",
+      "seq": 22
+    },
+    {
+      "name": "宁",
+      "region": "ZH",
+      "tag": "NNG",
+      "note": "",
+      "seq": 23
+    },
+    {
+      "name": "吴",
+      "region": "ZH",
+      "tag": "WUU",
+      "note": "",
+      "seq": 24
+    },
+    {
+      "name": "越",
+      "region": "ZH",
+      "tag": "YUE",
+      "note": "",
+      "seq": 25
+    },
+    {
+      "name": "朝鲜",
+      "region": "EA",
+      "tag": "KOR",
+      "note": "",
+      "seq": 26
+    },
+    {
+      "name": "赤松",
+      "region": "EA",
+      "tag": "AKM",
+      "note": "",
+      "seq": 27
+    },
+    {
+      "name": "安东",
+      "region": "EA",
+      "tag": "AKT",
+      "note": "",
+      "seq": 28
+    },
+    {
+      "name": "尼子",
+      "region": "EA",
+      "tag": "AMA",
+      "note": "",
+      "seq": 29
+    },
+    {
+      "name": "阿伊努",
+      "region": "EA",
+      "tag": "ANU",
+      "note": "",
+      "seq": 30
+    },
+    {
+      "name": "朝仓",
+      "region": "EA",
+      "tag": "ASA",
+      "note": "",
+      "seq": 31
+    },
+    {
+      "name": "足利",
+      "region": "EA",
+      "tag": "ASK",
+      "note": "",
+      "seq": 32
+    },
+    {
+      "name": "千叶",
+      "region": "EA",
+      "tag": "CBA",
+      "note": "",
+      "seq": 33
+    },
+    {
+      "name": "长宗我部",
+      "region": "EA",
+      "tag": "CSK",
+      "note": "",
+      "seq": 34
+    },
+    {
+      "name": "伊达",
+      "region": "EA",
+      "tag": "DTE",
+      "note": "",
+      "seq": 35
+    },
+    {
+      "name": "北条",
+      "region": "EA",
+      "tag": "HJO",
+      "note": "",
+      "seq": 36
+    },
+    {
+      "name": "细川",
+      "region": "EA",
+      "tag": "HSK",
+      "note": "",
+      "seq": 37
+    },
+    {
+      "name": "畠山",
+      "region": "EA",
+      "tag": "HTK",
+      "note": "",
+      "seq": 38
+    },
+    {
+      "name": "池田",
+      "region": "EA",
+      "tag": "IKE",
+      "note": "",
+      "seq": 39
+    },
+    {
+      "name": "今川",
+      "region": "EA",
+      "tag": "IMG",
+      "note": "",
+      "seq": 40
+    },
+    {
+      "name": "一色",
+      "region": "EA",
+      "tag": "ISK",
+      "note": "",
+      "seq": 41
+    },
+    {
+      "name": "伊东",
+      "region": "EA",
+      "tag": "ITO",
+      "note": "",
+      "seq": 42
+    },
+    {
+      "name": "日本",
+      "region": "EA",
+      "tag": "JAP",
+      "note": "",
+      "seq": 43
+    },
+    {
+      "name": "菊池",
+      "region": "EA",
+      "tag": "KKC",
+      "note": "",
+      "seq": 44
+    },
+    {
+      "name": "河野",
+      "region": "EA",
+      "tag": "KNO",
+      "note": "",
+      "seq": 45
+    },
+    {
+      "name": "北畠",
+      "region": "EA",
+      "tag": "KTB",
+      "note": "",
+      "seq": 46
+    },
+    {
+      "name": "前田",
+      "region": "EA",
+      "tag": "MAE",
+      "note": "",
+      "seq": 47
+    },
+    {
+      "name": "毛利",
+      "region": "EA",
+      "tag": "MRI",
+      "note": "",
+      "seq": 48
+    },
+    {
+      "name": "织田",
+      "region": "EA",
+      "tag": "ODA",
+      "note": "",
+      "seq": 49
+    },
+    {
+      "name": "小笠原",
+      "region": "EA",
+      "tag": "OGS",
+      "note": "",
+      "seq": 50
+    },
+    {
+      "name": "大友",
+      "region": "EA",
+      "tag": "OTM",
+      "note": "",
+      "seq": 51
+    },
+    {
+      "name": "大内",
+      "region": "EA",
+      "tag": "OUC",
+      "note": "",
+      "seq": 52
+    },
+    {
+      "name": "南部",
+      "region": "EA",
+      "tag": "RFR",
+      "note": "",
+      "seq": 53
+    },
+    {
+      "name": "琉球",
+      "region": "EA",
+      "tag": "RYU",
+      "note": "",
+      "seq": 54
+    },
+    {
+      "name": "斯波",
+      "region": "EA",
+      "tag": "SBA",
+      "note": "",
+      "seq": 55
+    },
+    {
+      "name": "少贰",
+      "region": "EA",
+      "tag": "SHN",
+      "note": "",
+      "seq": 56
+    },
+    {
+      "name": "岛津",
+      "region": "EA",
+      "tag": "SMZ",
+      "note": "",
+      "seq": 57
+    },
+    {
+      "name": "宗",
+      "region": "EA",
+      "tag": "SOO",
+      "note": "",
+      "seq": 58
+    },
+    {
+      "name": "佐竹",
+      "region": "EA",
+      "tag": "STK",
+      "note": "",
+      "seq": 59
+    },
+    {
+      "name": "武田",
+      "region": "EA",
+      "tag": "TKD",
+      "note": "",
+      "seq": 60
+    },
+    {
+      "name": "德川",
+      "region": "EA",
+      "tag": "TKG",
+      "note": "",
+      "seq": 61
+    },
+    {
+      "name": "土岐",
+      "region": "EA",
+      "tag": "TKI",
+      "note": "",
+      "seq": 62
+    },
+    {
+      "name": "筒井",
+      "region": "EA",
+      "tag": "TTI",
+      "note": "",
+      "seq": 63
+    },
+    {
+      "name": "上杉",
+      "region": "EA",
+      "tag": "UES",
+      "note": "",
+      "seq": 64
+    },
+    {
+      "name": "宇都宫",
+      "region": "EA",
+      "tag": "UTN",
+      "note": "",
+      "seq": 65
+    },
+    {
+      "name": "山名",
+      "region": "EA",
+      "tag": "YMN",
+      "note": "",
+      "seq": 66
+    },
+    {
+      "name": "东察合台",
+      "region": "TAT",
+      "tag": "CHG",
+      "note": "",
+      "seq": 67
+    },
+    {
+      "name": "察哈尔",
+      "region": "TAT",
+      "tag": "CHH",
+      "note": "",
+      "seq": 68
+    },
+    {
+      "name": "哈密",
+      "region": "TAT",
+      "tag": "HMI",
+      "note": "",
+      "seq": 69
+    },
+    {
+      "name": "蒙古",
+      "region": "TAT",
+      "tag": "KHA",
+      "note": "",
+      "seq": 70
+    },
+    {
+      "name": "喀尔喀",
+      "region": "TAT",
+      "tag": "KLK",
+      "note": "",
+      "seq": 71
+    },
+    {
+      "name": "科尔沁",
+      "region": "TAT",
+      "tag": "KRC",
+      "note": "",
+      "seq": 72
+    },
+    {
+      "name": "蒙古帝国",
+      "region": "TAT",
+      "tag": "MGE",
+      "note": "",
+      "seq": 73
+    },
+    {
+      "name": "瓦剌",
+      "region": "TAT",
+      "tag": "OIR",
+      "note": "",
+      "seq": 74
+    },
+    {
+      "name": "准噶尔",
+      "region": "TAT",
+      "tag": "ZUN",
+      "note": "",
+      "seq": 75
+    },
+    {
+      "name": "不丹",
+      "region": "TAT",
+      "tag": "BHU",
+      "note": "",
+      "seq": 76
+    },
+    {
+      "name": "古格",
+      "region": "TAT",
+      "tag": "GUG",
+      "note": "",
+      "seq": 77
+    },
+    {
+      "name": "康",
+      "region": "TAT",
+      "tag": "KAM",
+      "note": "",
+      "seq": 78
+    },
+    {
+      "name": "和硕特",
+      "region": "TAT",
+      "tag": "KSD",
+      "note": "",
+      "seq": 79
+    },
+    {
+      "name": "卫",
+      "region": "TAT",
+      "tag": "PHA",
+      "note": "",
+      "seq": 80
+    },
+    {
+      "name": "锡金",
+      "region": "TAT",
+      "tag": "SKK",
+      "note": "",
+      "seq": 81
+    },
+    {
+      "name": "撒里畏吾尔",
+      "region": "TAT",
+      "tag": "SYG",
+      "note": "",
+      "seq": 82
+    },
+    {
+      "name": "吐蕃",
+      "region": "TAT",
+      "tag": "TIB",
+      "note": "",
+      "seq": 83
+    },
+    {
+      "name": "藏",
+      "region": "TAT",
+      "tag": "UTS",
+      "note": "",
+      "seq": 84
+    },
+    {
+      "name": "布哈拉",
+      "region": "TAT",
+      "tag": "BUK",
+      "note": "",
+      "seq": 85
+    },
+    {
+      "name": "叶尔羌",
+      "region": "TAT",
+      "tag": "KAS",
+      "note": "",
+      "seq": 86
+    },
+    {
+      "name": "希瓦",
+      "region": "TAT",
+      "tag": "KHI",
+      "note": "",
+      "seq": 87
+    },
+    {
+      "name": "费尔干纳",
+      "region": "TAT",
+      "tag": "KOK",
+      "note": "",
+      "seq": 88
+    },
+    {
+      "name": "哈萨克",
+      "region": "TAT",
+      "tag": "KZH",
+      "note": "",
+      "seq": 89
+    },
+    {
+      "name": "诺盖",
+      "region": "TAT",
+      "tag": "NOG",
+      "note": "",
+      "seq": 90
+    },
+    {
+      "name": "帖木儿",
+      "region": "TAT",
+      "tag": "TIM",
+      "note": "",
+      "seq": 91
+    },
+    {
+      "name": "河中",
+      "region": "TAT",
+      "tag": "TRS",
+      "note": "",
+      "seq": 92
+    },
+    {
+      "name": "乌兹别克",
+      "region": "TAT",
+      "tag": "SHY",
+      "note": "",
+      "seq": 93
+    },
+    {
+      "name": "西伯利亚",
+      "region": "TAT",
+      "tag": "SIB",
+      "note": "",
+      "seq": 94
+    },
+    {
+      "name": "布里亚特",
+      "region": "TAT",
+      "tag": "BRT",
+      "note": "",
+      "seq": 95
+    },
+    {
+      "name": "楚科奇",
+      "region": "TAT",
+      "tag": "CHU",
+      "note": "",
+      "seq": 96
+    },
+    {
+      "name": "察夫楚万尼",
+      "region": "TAT",
+      "tag": "CHV",
+      "note": "",
+      "seq": 97
+    },
+    {
+      "name": "霍京",
+      "region": "TAT",
+      "tag": "HOD",
+      "note": "",
+      "seq": 98
+    },
+    {
+      "name": "堪察加",
+      "region": "TAT",
+      "tag": "KMC",
+      "note": "",
+      "seq": 99
+    },
+    {
+      "name": "赫哲",
+      "region": "TAT",
+      "tag": "EJZ",
+      "note": "",
+      "seq": 100
+    },
+    {
+      "name": "满洲",
+      "region": "TAT",
+      "tag": "MCH",
+      "note": "",
+      "seq": 101
+    },
+    {
+      "name": "海西女真",
+      "region": "TAT",
+      "tag": "MHX",
+      "note": "",
+      "seq": 102
+    },
+    {
+      "name": "建州女真",
+      "region": "TAT",
+      "tag": "MJZ",
+      "note": "",
+      "seq": 103
+    },
+    {
+      "name": "锡伯",
+      "region": "TAT",
+      "tag": "MYR",
+      "note": "",
+      "seq": 104
+    },
+    {
+      "name": "鄂罗奇",
+      "region": "TAT",
+      "tag": "NHX",
+      "note": "",
+      "seq": 105
+    },
+    {
+      "name": "尼夫赫",
+      "region": "TAT",
+      "tag": "NVK",
+      "note": "",
+      "seq": 106
+    },
+    {
+      "name": "索伦",
+      "region": "TAT",
+      "tag": "SOL",
+      "note": "",
+      "seq": 107
+    },
+    {
+      "name": "阿朗松",
+      "region": "WEU",
+      "tag": "ALE",
+      "note": "",
+      "seq": 108
+    },
+    {
+      "name": "阿马尼亚克",
+      "region": "WEU",
+      "tag": "AMG",
+      "note": "",
+      "seq": 109
+    },
+    {
+      "name": "奥弗涅",
+      "region": "WEU",
+      "tag": "AUV",
+      "note": "",
+      "seq": 110
+    },
+    {
+      "name": "安茹王国",
+      "region": "WEU",
+      "tag": "AVE",
+      "note": "",
+      "seq": 111
+    },
+    {
+      "name": "阿维尼翁",
+      "region": "WEU",
+      "tag": "AVI",
+      "note": "",
+      "seq": 112
+    },
+    {
+      "name": "巴尔",
+      "region": "WEU",
+      "tag": "BAR",
+      "note": "",
+      "seq": 113
+    },
+    {
+      "name": "贝里",
+      "region": "WEU",
+      "tag": "BER",
+      "note": "",
+      "seq": 114
+    },
+    {
+      "name": "波旁",
+      "region": "WEU",
+      "tag": "BOU",
+      "note": "",
+      "seq": 115
+    },
+    {
+      "name": "布列塔尼",
+      "region": "WEU",
+      "tag": "BRI",
+      "note": "",
+      "seq": 116
+    },
+    {
+      "name": "勃艮第",
+      "region": "WEU",
+      "tag": "BUR",
+      "note": "",
+      "seq": 117
+    },
+    {
+      "name": "香槟",
+      "region": "WEU",
+      "tag": "CHP",
+      "note": "",
+      "seq": 118
+    },
+    {
+      "name": "多菲内",
+      "region": "WEU",
+      "tag": "DAU",
+      "note": "",
+      "seq": 119
+    },
+    {
+      "name": "富瓦",
+      "region": "WEU",
+      "tag": "FOI",
+      "note": "",
+      "seq": 120
+    },
+    {
+      "name": "法兰西",
+      "region": "WEU",
+      "tag": "FRA",
+      "note": "",
+      "seq": 121
+    },
+    {
+      "name": "加斯科涅",
+      "region": "WEU",
+      "tag": "GUY",
+      "note": "",
+      "seq": 122
+    },
+    {
+      "name": "洛林",
+      "region": "WEU",
+      "tag": "LOR",
+      "note": "",
+      "seq": 123
+    },
+    {
+      "name": "讷韦尔",
+      "region": "WEU",
+      "tag": "NEV",
+      "note": "",
+      "seq": 124
+    },
+    {
+      "name": "诺曼底",
+      "region": "WEU",
+      "tag": "NRM",
+      "note": "",
+      "seq": 125
+    },
+    {
+      "name": "奥尔良",
+      "region": "WEU",
+      "tag": "ORL",
+      "note": "",
+      "seq": 126
+    },
+    {
+      "name": "皮卡第",
+      "region": "WEU",
+      "tag": "PIC",
+      "note": "",
+      "seq": 127
+    },
+    {
+      "name": "普罗旺斯",
+      "region": "WEU",
+      "tag": "PRO",
+      "note": "",
+      "seq": 128
+    },
+    {
+      "name": "萨伏依",
+      "region": "WEU",
+      "tag": "SAV",
+      "note": "",
+      "seq": 129
+    },
+    {
+      "name": "图卢兹",
+      "region": "WEU",
+      "tag": "TOU",
+      "note": "",
+      "seq": 130
+    },
+    {
+      "name": "安达卢西亚",
+      "region": "WEU",
+      "tag": "ADU",
+      "note": "",
+      "seq": 131
+    },
+    {
+      "name": "阿拉贡",
+      "region": "WEU",
+      "tag": "ARA",
+      "note": "",
+      "seq": 132
+    },
+    {
+      "name": "阿斯图里亚斯",
+      "region": "WEU",
+      "tag": "ASU",
+      "note": "",
+      "seq": 133
+    },
+    {
+      "name": "卡斯蒂利亚",
+      "region": "WEU",
+      "tag": "CAS",
+      "note": "",
+      "seq": 134
+    },
+    {
+      "name": "加泰罗尼亚",
+      "region": "WEU",
+      "tag": "CAT",
+      "note": "",
+      "seq": 135
+    },
+    {
+      "name": "加利西亚",
+      "region": "WEU",
+      "tag": "GAL",
+      "note": "",
+      "seq": 136
+    },
+    {
+      "name": "格拉纳达",
+      "region": "WEU",
+      "tag": "GRA",
+      "note": "",
+      "seq": 137
+    },
+    {
+      "name": "莱昂",
+      "region": "WEU",
+      "tag": "LON",
+      "note": "",
+      "seq": 138
+    },
+    {
+      "name": "马略卡",
+      "region": "WEU",
+      "tag": "MJO",
+      "note": "",
+      "seq": 139
+    },
+    {
+      "name": "纳瓦拉",
+      "region": "WEU",
+      "tag": "NAV",
+      "note": "",
+      "seq": 140
+    },
+    {
+      "name": "葡萄牙",
+      "region": "WEU",
+      "tag": "POR",
+      "note": "",
+      "seq": 141
+    },
+    {
+      "name": "西班牙",
+      "region": "WEU",
+      "tag": "SPA",
+      "note": "",
+      "seq": 142
+    },
+    {
+      "name": "巴伦西亚",
+      "region": "WEU",
+      "tag": "VAL",
+      "note": "",
+      "seq": 143
+    },
+    {
+      "name": "克兰里卡德",
+      "region": "WEU",
+      "tag": "CNN",
+      "note": "",
+      "seq": 144
+    },
+    {
+      "name": "康沃尔",
+      "region": "WEU",
+      "tag": "CRN",
+      "note": "",
+      "seq": 145
+    },
+    {
+      "name": "德斯蒙德",
+      "region": "WEU",
+      "tag": "DMS",
+      "note": "",
+      "seq": 146
+    },
+    {
+      "name": "英格兰",
+      "region": "WEU",
+      "tag": "ENG",
+      "note": "",
+      "seq": 147
+    },
+    {
+      "name": "奥法利",
+      "region": "WEU",
+      "tag": "FLY",
+      "note": "",
+      "seq": 148
+    },
+    {
+      "name": "大不列颠",
+      "region": "WEU",
+      "tag": "GBR",
+      "note": "",
+      "seq": 149
+    },
+    {
+      "name": "盖尔",
+      "region": "WEU",
+      "tag": "HSC",
+      "note": "",
+      "seq": 150
+    },
+    {
+      "name": "爱尔兰",
+      "region": "WEU",
+      "tag": "IRE",
+      "note": "",
+      "seq": 151
+    },
+    {
+      "name": "基尔代尔",
+      "region": "WEU",
+      "tag": "KID",
+      "note": "",
+      "seq": 152
+    },
+    {
+      "name": "马恩",
+      "region": "WEU",
+      "tag": "KOI",
+      "note": "",
+      "seq": 153
+    },
+    {
+      "name": "伦斯特",
+      "region": "WEU",
+      "tag": "LEI",
+      "note": "",
+      "seq": 154
+    },
+    {
+      "name": "群岛",
+      "region": "WEU",
+      "tag": "LOI",
+      "note": "",
+      "seq": 155
+    },
+    {
+      "name": "芒斯特",
+      "region": "WEU",
+      "tag": "MCM",
+      "note": "",
+      "seq": 156
+    },
+    {
+      "name": "托蒙德",
+      "region": "WEU",
+      "tag": "MNS",
+      "note": "",
+      "seq": 157
+    },
+    {
+      "name": "米斯",
+      "region": "WEU",
+      "tag": "MTH",
+      "note": "",
+      "seq": 158
+    },
+    {
+      "name": "诺森伯兰",
+      "region": "WEU",
+      "tag": "NOL",
+      "note": "",
+      "seq": 159
+    },
+    {
+      "name": "奥蒙德",
+      "region": "WEU",
+      "tag": "ORD",
+      "note": "",
+      "seq": 160
+    },
+    {
+      "name": "苏格兰",
+      "region": "WEU",
+      "tag": "SCO",
+      "note": "",
+      "seq": 161
+    },
+    {
+      "name": "塞拉",
+      "region": "WEU",
+      "tag": "SLE",
+      "note": "",
+      "seq": 162
+    },
+    {
+      "name": "斯莱戈",
+      "region": "WEU",
+      "tag": "SLN",
+      "note": "",
+      "seq": 163
+    },
+    {
+      "name": "蒂康奈尔",
+      "region": "WEU",
+      "tag": "TRY",
+      "note": "",
+      "seq": 164
+    },
+    {
+      "name": "蒂龙",
+      "region": "WEU",
+      "tag": "TYR",
+      "note": "",
+      "seq": 165
+    },
+    {
+      "name": "阿尔斯特",
+      "region": "WEU",
+      "tag": "ULS",
+      "note": "",
+      "seq": 166
+    },
+    {
+      "name": "威尔士",
+      "region": "WEU",
+      "tag": "WLS",
+      "note": "",
+      "seq": 167
+    },
+    {
+      "name": "布拉班特",
+      "region": "WEU",
+      "tag": "BRB",
+      "note": "",
+      "seq": 168
+    },
+    {
+      "name": "东弗里斯兰",
+      "region": "WEU",
+      "tag": "EFR",
+      "note": "",
+      "seq": 169
+    },
+    {
+      "name": "佛兰德",
+      "region": "WEU",
+      "tag": "FLA",
+      "note": "",
+      "seq": 170
+    },
+    {
+      "name": "弗里斯兰",
+      "region": "WEU",
+      "tag": "FRI",
+      "note": "",
+      "seq": 171
+    },
+    {
+      "name": "海尔雷",
+      "region": "WEU",
+      "tag": "GEL",
+      "note": "",
+      "seq": 172
+    },
+    {
+      "name": "埃诺",
+      "region": "WEU",
+      "tag": "HAI",
+      "note": "",
+      "seq": 173
+    },
+    {
+      "name": "荷兰",
+      "region": "WEU",
+      "tag": "HOL",
+      "note": "",
+      "seq": 174
+    },
+    {
+      "name": "列日",
+      "region": "WEU",
+      "tag": "LIE",
+      "note": "",
+      "seq": 175
+    },
+    {
+      "name": "卢森堡",
+      "region": "WEU",
+      "tag": "LUX",
+      "note": "",
+      "seq": 176
+    },
+    {
+      "name": "尼德兰",
+      "region": "WEU",
+      "tag": "NED",
+      "note": "",
+      "seq": 177
+    },
+    {
+      "name": "乌得勒支",
+      "region": "WEU",
+      "tag": "UTR",
+      "note": "",
+      "seq": 178
+    },
+    {
+      "name": "亚琛",
+      "region": "CEU",
+      "tag": "AAC",
+      "note": "",
+      "seq": 179
+    },
+    {
+      "name": "安哈尔特",
+      "region": "CEU",
+      "tag": "ANH",
+      "note": "",
+      "seq": 180
+    },
+    {
+      "name": "波希米亚",
+      "region": "CEU",
+      "tag": "BOH",
+      "note": "",
+      "seq": 181
+    },
+    {
+      "name": "勃兰登堡",
+      "region": "CEU",
+      "tag": "BRA",
+      "note": "",
+      "seq": 182
+    },
+    {
+      "name": "不来梅",
+      "region": "CEU",
+      "tag": "BRE",
+      "note": "",
+      "seq": 183
+    },
+    {
+      "name": "贝格",
+      "region": "CEU",
+      "tag": "BRG",
+      "note": "",
+      "seq": 184
+    },
+    {
+      "name": "不伦瑞克",
+      "region": "CEU",
+      "tag": "BRU",
+      "note": "",
+      "seq": 185
+    },
+    {
+      "name": "卡伦贝格",
+      "region": "CEU",
+      "tag": "CLB",
+      "note": "",
+      "seq": 186
+    },
+    {
+      "name": "迪特马尔申",
+      "region": "CEU",
+      "tag": "DTT",
+      "note": "",
+      "seq": 187
+    },
+    {
+      "name": "法兰克福",
+      "region": "CEU",
+      "tag": "FRN",
+      "note": "",
+      "seq": 188
+    },
+    {
+      "name": "德意志",
+      "region": "CEU",
+      "tag": "GER",
+      "note": "",
+      "seq": 189
+    },
+    {
+      "name": "大摩拉维亚",
+      "region": "CEU",
+      "tag": "GMA",
+      "note": "",
+      "seq": 190
+    },
+    {
+      "name": "戈斯拉尔",
+      "region": "CEU",
+      "tag": "GOS",
+      "note": "",
+      "seq": 191
+    },
+    {
+      "name": "汉堡",
+      "region": "CEU",
+      "tag": "HAM",
+      "note": "",
+      "seq": 192
+    },
+    {
+      "name": "汉诺威",
+      "region": "CEU",
+      "tag": "HAN",
+      "note": "",
+      "seq": 193
+    },
+    {
+      "name": "黑森",
+      "region": "CEU",
+      "tag": "HES",
+      "note": "",
+      "seq": 194
+    },
+    {
+      "name": "吕贝克",
+      "region": "CEU",
+      "tag": "HSA",
+      "note": "",
+      "seq": 195
+    },
+    {
+      "name": "克莱沃",
+      "region": "CEU",
+      "tag": "KLE",
+      "note": "",
+      "seq": 196
+    },
+    {
+      "name": "科隆",
+      "region": "CEU",
+      "tag": "KOL",
+      "note": "",
+      "seq": 197
+    },
+    {
+      "name": "萨克森-劳恩堡",
+      "region": "CEU",
+      "tag": "LAU",
+      "note": "",
+      "seq": 198
+    },
+    {
+      "name": "洛塔林吉亚",
+      "region": "CEU",
+      "tag": "LOT",
+      "note": "",
+      "seq": 199
+    },
+    {
+      "name": "利珀",
+      "region": "CEU",
+      "tag": "LPP",
+      "note": "",
+      "seq": 200
+    },
+    {
+      "name": "吕讷堡",
+      "region": "CEU",
+      "tag": "LUN",
+      "note": "",
+      "seq": 201
+    },
+    {
+      "name": "马格德堡",
+      "region": "CEU",
+      "tag": "MAG",
+      "note": "",
+      "seq": 202
+    },
+    {
+      "name": "美因茨",
+      "region": "CEU",
+      "tag": "MAI",
+      "note": "",
+      "seq": 203
+    },
+    {
+      "name": "迈森",
+      "region": "CEU",
+      "tag": "MEI",
+      "note": "",
+      "seq": 204
+    },
+    {
+      "name": "梅克伦堡",
+      "region": "CEU",
+      "tag": "MKL",
+      "note": "",
+      "seq": 205
+    },
+    {
+      "name": "明斯特",
+      "region": "CEU",
+      "tag": "MUN",
+      "note": "",
+      "seq": 206
+    },
+    {
+      "name": "摩拉维亚",
+      "region": "CEU",
+      "tag": "MVA",
+      "note": "",
+      "seq": 207
+    },
+    {
+      "name": "拿骚",
+      "region": "CEU",
+      "tag": "NSA",
+      "note": "",
+      "seq": 208
+    },
+    {
+      "name": "奥尔登堡",
+      "region": "CEU",
+      "tag": "OLD",
+      "note": "",
+      "seq": 209
+    },
+    {
+      "name": "奥斯纳布吕克",
+      "region": "CEU",
+      "tag": "OSN",
+      "note": "",
+      "seq": 210
+    },
+    {
+      "name": "帕德博恩",
+      "region": "CEU",
+      "tag": "PAD",
+      "note": "",
+      "seq": 211
+    },
+    {
+      "name": "波美拉尼亚",
+      "region": "CEU",
+      "tag": "POM",
+      "note": "",
+      "seq": 212
+    },
+    {
+      "name": "吕根",
+      "region": "CEU",
+      "tag": "RUG",
+      "note": "",
+      "seq": 213
+    },
+    {
+      "name": "鲁平",
+      "region": "CEU",
+      "tag": "RUP",
+      "note": "",
+      "seq": 214
+    },
+    {
+      "name": "多特蒙德",
+      "region": "CEU",
+      "tag": "RVA",
+      "note": "",
+      "seq": 215
+    },
+    {
+      "name": "萨克森",
+      "region": "CEU",
+      "tag": "SAX",
+      "note": "",
+      "seq": 216
+    },
+    {
+      "name": "荷尔斯泰因",
+      "region": "CEU",
+      "tag": "SHL",
+      "note": "",
+      "seq": 217
+    },
+    {
+      "name": "卢萨蒂亚",
+      "region": "CEU",
+      "tag": "SOR",
+      "note": "",
+      "seq": 218
+    },
+    {
+      "name": "斯德丁",
+      "region": "CEU",
+      "tag": "STE",
+      "note": "",
+      "seq": 219
+    },
+    {
+      "name": "智械",
+      "region": "CEU",
+      "tag": "SYN",
+      "note": "",
+      "seq": 220
+    },
+    {
+      "name": "图林根",
+      "region": "CEU",
+      "tag": "THU",
+      "note": "",
+      "seq": 221
+    },
+    {
+      "name": "特里尔",
+      "region": "CEU",
+      "tag": "TRI",
+      "note": "",
+      "seq": 222
+    },
+    {
+      "name": "费尔登",
+      "region": "CEU",
+      "tag": "VER",
+      "note": "",
+      "seq": 223
+    },
+    {
+      "name": "威斯特伐利亚",
+      "region": "CEU",
+      "tag": "WES",
+      "note": "",
+      "seq": 224
+    },
+    {
+      "name": "沃尔加斯特",
+      "region": "CEU",
+      "tag": "WOL",
+      "note": "",
+      "seq": 225
+    },
+    {
+      "name": "斯特拉斯堡",
+      "region": "CEU",
+      "tag": "ALS",
+      "note": "",
+      "seq": 226
+    },
+    {
+      "name": "安斯巴赫",
+      "region": "CEU",
+      "tag": "ANS",
+      "note": "",
+      "seq": 227
+    },
+    {
+      "name": "奥格斯堡",
+      "region": "CEU",
+      "tag": "AUG",
+      "note": "",
+      "seq": 228
+    },
+    {
+      "name": "奥地利-匈牙利",
+      "region": "CEU",
+      "tag": "AUH",
+      "note": "",
+      "seq": 229
+    },
+    {
+      "name": "巴登",
+      "region": "CEU",
+      "tag": "BAD",
+      "note": "",
+      "seq": 230
+    },
+    {
+      "name": "班贝格",
+      "region": "CEU",
+      "tag": "BAM",
+      "note": "",
+      "seq": 231
+    },
+    {
+      "name": "巴伐利亚",
+      "region": "CEU",
+      "tag": "BAV",
+      "note": "",
+      "seq": 232
+    },
+    {
+      "name": "拜罗伊特",
+      "region": "CEU",
+      "tag": "BYT",
+      "note": "",
+      "seq": 233
+    },
+    {
+      "name": "采列",
+      "region": "CEU",
+      "tag": "CLI",
+      "note": "",
+      "seq": 234
+    },
+    {
+      "name": "科堡",
+      "region": "CEU",
+      "tag": "COB",
+      "note": "",
+      "seq": 235
+    },
+    {
+      "name": "多瑙沃特",
+      "region": "CEU",
+      "tag": "DWT",
+      "note": "",
+      "seq": 236
+    },
+    {
+      "name": "法兰克尼亚",
+      "region": "CEU",
+      "tag": "FKN",
+      "note": "",
+      "seq": 237
+    },
+    {
+      "name": "日内瓦",
+      "region": "CEU",
+      "tag": "GNV",
+      "note": "",
+      "seq": 238
+    },
+    {
+      "name": "奥地利",
+      "region": "CEU",
+      "tag": "HAB",
+      "note": "",
+      "seq": 239
+    },
+    {
+      "name": "神圣罗马帝国",
+      "region": "CEU",
+      "tag": "HLR",
+      "note": "",
+      "seq": 240
+    },
+    {
+      "name": "英戈尔施塔特",
+      "region": "CEU",
+      "tag": "ING",
+      "note": "",
+      "seq": 241
+    },
+    {
+      "name": "康斯坦茨",
+      "region": "CEU",
+      "tag": "KNZ",
+      "note": "",
+      "seq": 242
+    },
+    {
+      "name": "兰茨胡特",
+      "region": "CEU",
+      "tag": "LBV",
+      "note": "",
+      "seq": 243
+    },
+    {
+      "name": "布雷根茨",
+      "region": "CEU",
+      "tag": "MBZ",
+      "note": "",
+      "seq": 244
+    },
+    {
+      "name": "梅明根",
+      "region": "CEU",
+      "tag": "MEM",
+      "note": "",
+      "seq": 245
+    },
+    {
+      "name": "米卢斯",
+      "region": "CEU",
+      "tag": "MLH",
+      "note": "",
+      "seq": 246
+    },
+    {
+      "name": "纽伦堡",
+      "region": "CEU",
+      "tag": "NUM",
+      "note": "",
+      "seq": 247
+    },
+    {
+      "name": "普法尔茨",
+      "region": "CEU",
+      "tag": "PAL",
+      "note": "",
+      "seq": 248
+    },
+    {
+      "name": "帕绍",
+      "region": "CEU",
+      "tag": "PSS",
+      "note": "",
+      "seq": 249
+    },
+    {
+      "name": "雷根斯堡",
+      "region": "CEU",
+      "tag": "REG",
+      "note": "",
+      "seq": 250
+    },
+    {
+      "name": "罗滕堡",
+      "region": "CEU",
+      "tag": "ROT",
+      "note": "",
+      "seq": 251
+    },
+    {
+      "name": "萨尔茨堡",
+      "region": "CEU",
+      "tag": "SLZ",
+      "note": "",
+      "seq": 252
+    },
+    {
+      "name": "施蒂里亚",
+      "region": "CEU",
+      "tag": "STY",
+      "note": "",
+      "seq": 253
+    },
+    {
+      "name": "施瓦本",
+      "region": "CEU",
+      "tag": "SWA",
+      "note": "",
+      "seq": 254
+    },
+    {
+      "name": "瑞士",
+      "region": "CEU",
+      "tag": "SWI",
+      "note": "",
+      "seq": 255
+    },
+    {
+      "name": "蒂罗尔",
+      "region": "CEU",
+      "tag": "TIR",
+      "note": "",
+      "seq": 256
+    },
+    {
+      "name": "特伦托",
+      "region": "CEU",
+      "tag": "TNT",
+      "note": "",
+      "seq": 257
+    },
+    {
+      "name": "三同盟",
+      "region": "CEU",
+      "tag": "TTL",
+      "note": "",
+      "seq": 258
+    },
+    {
+      "name": "慕尼黑",
+      "region": "CEU",
+      "tag": "UBV",
+      "note": "",
+      "seq": 259
+    },
+    {
+      "name": "乌尔姆",
+      "region": "CEU",
+      "tag": "ULM",
+      "note": "",
+      "seq": 260
+    },
+    {
+      "name": "维尔茨堡",
+      "region": "CEU",
+      "tag": "WBG",
+      "note": "",
+      "seq": 261
+    },
+    {
+      "name": "符腾堡",
+      "region": "CEU",
+      "tag": "WUR",
+      "note": "",
+      "seq": 262
+    },
+    {
+      "name": "丹麦",
+      "region": "CEU",
+      "tag": "DAN",
+      "note": "",
+      "seq": 263
+    },
+    {
+      "name": "芬兰",
+      "region": "CEU",
+      "tag": "FIN",
+      "note": "",
+      "seq": 264
+    },
+    {
+      "name": "哥得兰",
+      "region": "CEU",
+      "tag": "GOT",
+      "note": "",
+      "seq": 265
+    },
+    {
+      "name": "冰岛",
+      "region": "CEU",
+      "tag": "ICE",
+      "note": "",
+      "seq": 266
+    },
+    {
+      "name": "扬马延",
+      "region": "CEU",
+      "tag": "JMN",
+      "note": "",
+      "seq": 267
+    },
+    {
+      "name": "挪威",
+      "region": "CEU",
+      "tag": "NOR",
+      "note": "",
+      "seq": 268
+    },
+    {
+      "name": "斯堪的纳维亚",
+      "region": "CEU",
+      "tag": "SCA",
+      "note": "",
+      "seq": 269
+    },
+    {
+      "name": "萨米",
+      "region": "CEU",
+      "tag": "SMI",
+      "note": "",
+      "seq": 270
+    },
+    {
+      "name": "瑞典",
+      "region": "CEU",
+      "tag": "SWE",
+      "note": "",
+      "seq": 271
+    },
+    {
+      "name": "阿奎莱亚",
+      "region": "CEU",
+      "tag": "AQU",
+      "note": "",
+      "seq": 272
+    },
+    {
+      "name": "博洛尼亚",
+      "region": "CEU",
+      "tag": "BLG",
+      "note": "",
+      "seq": 273
+    },
+    {
+      "name": "科西嘉",
+      "region": "CEU",
+      "tag": "COR",
+      "note": "",
+      "seq": 274
+    },
+    {
+      "name": "伊特鲁里亚",
+      "region": "CEU",
+      "tag": "ETR",
+      "note": "",
+      "seq": 275
+    },
+    {
+      "name": "费拉拉",
+      "region": "CEU",
+      "tag": "FER",
+      "note": "",
+      "seq": 276
+    },
+    {
+      "name": "热那亚",
+      "region": "CEU",
+      "tag": "GEN",
+      "note": "",
+      "seq": 277
+    },
+    {
+      "name": "意大利",
+      "region": "CEU",
+      "tag": "ITA",
+      "note": "",
+      "seq": 278
+    },
+    {
+      "name": "马耳他",
+      "region": "CEU",
+      "tag": "JAI",
+      "note": "",
+      "seq": 279
+    },
+    {
+      "name": "佛罗伦萨",
+      "region": "CEU",
+      "tag": "LAN",
+      "note": "",
+      "seq": 280
+    },
+    {
+      "name": "卢卡",
+      "region": "CEU",
+      "tag": "LUC",
+      "note": "",
+      "seq": 281
+    },
+    {
+      "name": "曼托瓦",
+      "region": "CEU",
+      "tag": "MAN",
+      "note": "",
+      "seq": 282
+    },
+    {
+      "name": "蒙费拉托",
+      "region": "CEU",
+      "tag": "MFA",
+      "note": "",
+      "seq": 283
+    },
+    {
+      "name": "米兰",
+      "region": "CEU",
+      "tag": "MLO",
+      "note": "",
+      "seq": 284
+    },
+    {
+      "name": "摩德纳",
+      "region": "CEU",
+      "tag": "MOD",
+      "note": "",
+      "seq": 285
+    },
+    {
+      "name": "那不勒斯",
+      "region": "CEU",
+      "tag": "NAP",
+      "note": "",
+      "seq": 286
+    },
+    {
+      "name": "教宗国",
+      "region": "CEU",
+      "tag": "PAP",
+      "note": "",
+      "seq": 287
+    },
+    {
+      "name": "帕尔马",
+      "region": "CEU",
+      "tag": "PAR",
+      "note": "",
+      "seq": 288
+    },
+    {
+      "name": "帕多瓦",
+      "region": "CEU",
+      "tag": "PDV",
+      "note": "",
+      "seq": 289
+    },
+    {
+      "name": "佩鲁贾",
+      "region": "CEU",
+      "tag": "PGA",
+      "note": "",
+      "seq": 290
+    },
+    {
+      "name": "比萨",
+      "region": "CEU",
+      "tag": "PIS",
+      "note": "",
+      "seq": 291
+    },
+    {
+      "name": "罗马帝国",
+      "region": "CEU",
+      "tag": "ROM",
+      "note": "",
+      "seq": 292
+    },
+    {
+      "name": "撒丁",
+      "region": "CEU",
+      "tag": "SAR",
+      "note": "",
+      "seq": 293
+    },
+    {
+      "name": "西西里",
+      "region": "CEU",
+      "tag": "SIC",
+      "note": "",
+      "seq": 294
+    },
+    {
+      "name": "锡耶纳",
+      "region": "CEU",
+      "tag": "SIE",
+      "note": "",
+      "seq": 295
+    },
+    {
+      "name": "撒丁-皮埃蒙特",
+      "region": "CEU",
+      "tag": "SPI",
+      "note": "",
+      "seq": 296
+    },
+    {
+      "name": "斯波莱托",
+      "region": "CEU",
+      "tag": "SPL",
+      "note": "",
+      "seq": 297
+    },
+    {
+      "name": "萨卢佐",
+      "region": "CEU",
+      "tag": "SZO",
+      "note": "",
+      "seq": 298
+    },
+    {
+      "name": "两西西里",
+      "region": "CEU",
+      "tag": "TTS",
+      "note": "",
+      "seq": 299
+    },
+    {
+      "name": "托斯卡纳",
+      "region": "CEU",
+      "tag": "TUS",
+      "note": "",
+      "seq": 300
+    },
+    {
+      "name": "乌尔比诺",
+      "region": "CEU",
+      "tag": "URB",
+      "note": "",
+      "seq": 301
+    },
+    {
+      "name": "威尼斯",
+      "region": "CEU",
+      "tag": "VEN",
+      "note": "",
+      "seq": 302
+    },
+    {
+      "name": "维罗纳",
+      "region": "CEU",
+      "tag": "VRN",
+      "note": "",
+      "seq": 303
+    },
+    {
+      "name": "格沃古夫",
+      "region": "EEU",
+      "tag": "GLG",
+      "note": "",
+      "seq": 304
+    },
+    {
+      "name": "克拉科夫",
+      "region": "EEU",
+      "tag": "KRA",
+      "note": "",
+      "seq": 305
+    },
+    {
+      "name": "马佐夫舍",
+      "region": "EEU",
+      "tag": "MAZ",
+      "note": "",
+      "seq": 306
+    },
+    {
+      "name": "奥波莱",
+      "region": "EEU",
+      "tag": "OPL",
+      "note": "",
+      "seq": 307
+    },
+    {
+      "name": "波兰立陶宛联邦",
+      "region": "EEU",
+      "tag": "PLC",
+      "note": "",
+      "seq": 308
+    },
+    {
+      "name": "波兰",
+      "region": "EEU",
+      "tag": "POL",
+      "note": "",
+      "seq": 309
+    },
+    {
+      "name": "西里西亚",
+      "region": "EEU",
+      "tag": "SIL",
+      "note": "",
+      "seq": 310
+    },
+    {
+      "name": "但泽",
+      "region": "EEU",
+      "tag": "DNZ",
+      "note": "",
+      "seq": 311
+    },
+    {
+      "name": "爱沙尼亚",
+      "region": "EEU",
+      "tag": "EST",
+      "note": "",
+      "seq": 312
+    },
+    {
+      "name": "库尔兰",
+      "region": "EEU",
+      "tag": "KUR",
+      "note": "",
+      "seq": 313
+    },
+    {
+      "name": "立陶宛",
+      "region": "EEU",
+      "tag": "LIT",
+      "note": "",
+      "seq": 314
+    },
+    {
+      "name": "利沃尼亚骑士团",
+      "region": "EEU",
+      "tag": "LIV",
+      "note": "",
+      "seq": 315
+    },
+    {
+      "name": "拉特加尔",
+      "region": "EEU",
+      "tag": "LTG",
+      "note": "",
+      "seq": 316
+    },
+    {
+      "name": "利沃尼亚",
+      "region": "EEU",
+      "tag": "LVA",
+      "note": "",
+      "seq": 317
+    },
+    {
+      "name": "普鲁士",
+      "region": "EEU",
+      "tag": "PRU",
+      "note": "",
+      "seq": 318
+    },
+    {
+      "name": "里加",
+      "region": "EEU",
+      "tag": "RIG",
+      "note": "",
+      "seq": 319
+    },
+    {
+      "name": "条顿骑士团",
+      "region": "EEU",
+      "tag": "TEU",
+      "note": "",
+      "seq": 320
+    },
+    {
+      "name": "别洛奥泽罗",
+      "region": "EEU",
+      "tag": "BLO",
+      "note": "",
+      "seq": 321
+    },
+    {
+      "name": "卡累利阿",
+      "region": "EEU",
+      "tag": "KRL",
+      "note": "",
+      "seq": 322
+    },
+    {
+      "name": "莫斯科",
+      "region": "EEU",
+      "tag": "MOS",
+      "note": "",
+      "seq": 323
+    },
+    {
+      "name": "诺夫哥罗德",
+      "region": "EEU",
+      "tag": "NOV",
+      "note": "",
+      "seq": 324
+    },
+    {
+      "name": "奥多耶夫",
+      "region": "EEU",
+      "tag": "OKA",
+      "note": "",
+      "seq": 325
+    },
+    {
+      "name": "波洛茨克",
+      "region": "EEU",
+      "tag": "PLT",
+      "note": "",
+      "seq": 326
+    },
+    {
+      "name": "普斯科夫",
+      "region": "EEU",
+      "tag": "PSK",
+      "note": "",
+      "seq": 327
+    },
+    {
+      "name": "卡西姆",
+      "region": "EEU",
+      "tag": "QAS",
+      "note": "",
+      "seq": 328
+    },
+    {
+      "name": "罗斯托夫",
+      "region": "EEU",
+      "tag": "RSO",
+      "note": "",
+      "seq": 329
+    },
+    {
+      "name": "俄罗斯",
+      "region": "EEU",
+      "tag": "RUS",
+      "note": "",
+      "seq": 330
+    },
+    {
+      "name": "梁赞",
+      "region": "EEU",
+      "tag": "RYA",
+      "note": "",
+      "seq": 331
+    },
+    {
+      "name": "特维尔",
+      "region": "EEU",
+      "tag": "TVE",
+      "note": "",
+      "seq": 332
+    },
+    {
+      "name": "雅罗斯拉夫尔",
+      "region": "EEU",
+      "tag": "YAR",
+      "note": "",
+      "seq": 333
+    },
+    {
+      "name": "切尔尼戈夫",
+      "region": "EEU",
+      "tag": "CHR",
+      "note": "",
+      "seq": 334
+    },
+    {
+      "name": "基辅",
+      "region": "EEU",
+      "tag": "KIE",
+      "note": "",
+      "seq": 335
+    },
+    {
+      "name": "斯摩棱斯克",
+      "region": "EEU",
+      "tag": "SMO",
+      "note": "",
+      "seq": 336
+    },
+    {
+      "name": "鲁塞尼亚",
+      "region": "EEU",
+      "tag": "UKR",
+      "note": "",
+      "seq": 337
+    },
+    {
+      "name": "加利西亚-沃里尼亚",
+      "region": "EEU",
+      "tag": "VOL",
+      "note": "",
+      "seq": 338
+    },
+    {
+      "name": "匈牙利",
+      "region": "EEU",
+      "tag": "HUN",
+      "note": "",
+      "seq": 339
+    },
+    {
+      "name": "摩尔达维亚",
+      "region": "EEU",
+      "tag": "MOL",
+      "note": "",
+      "seq": 340
+    },
+    {
+      "name": "罗马尼亚",
+      "region": "EEU",
+      "tag": "RMN",
+      "note": "",
+      "seq": 341
+    },
+    {
+      "name": "尼特拉",
+      "region": "EEU",
+      "tag": "SLO",
+      "note": "",
+      "seq": 342
+    },
+    {
+      "name": "特兰西瓦尼亚",
+      "region": "EEU",
+      "tag": "TRA",
+      "note": "",
+      "seq": 343
+    },
+    {
+      "name": "瓦拉几亚",
+      "region": "EEU",
+      "tag": "WAL",
+      "note": "",
+      "seq": 344
+    },
+    {
+      "name": "亚该亚",
+      "region": "EEU",
+      "tag": "ACH",
+      "note": "",
+      "seq": 345
+    },
+    {
+      "name": "阿尔巴尼亚",
+      "region": "EEU",
+      "tag": "ALB",
+      "note": "",
+      "seq": 346
+    },
+    {
+      "name": "雅典",
+      "region": "EEU",
+      "tag": "ATH",
+      "note": "",
+      "seq": 347
+    },
+    {
+      "name": "波斯尼亚",
+      "region": "EEU",
+      "tag": "BOS",
+      "note": "",
+      "seq": 348
+    },
+    {
+      "name": "保加利亚",
+      "region": "EEU",
+      "tag": "BUL",
+      "note": "",
+      "seq": 349
+    },
+    {
+      "name": "拜占庭",
+      "region": "EEU",
+      "tag": "BYZ",
+      "note": "",
+      "seq": 350
+    },
+    {
+      "name": "科孚",
+      "region": "EEU",
+      "tag": "CEP",
+      "note": "",
+      "seq": 351
+    },
+    {
+      "name": "克罗地亚",
+      "region": "EEU",
+      "tag": "CRO",
+      "note": "",
+      "seq": 352
+    },
+    {
+      "name": "克里特",
+      "region": "EEU",
+      "tag": "CRT",
+      "note": "",
+      "seq": 353
+    },
+    {
+      "name": "达尔马提亚",
+      "region": "EEU",
+      "tag": "DAL",
+      "note": "",
+      "seq": 354
+    },
+    {
+      "name": "伊庇鲁斯",
+      "region": "EEU",
+      "tag": "EPI",
+      "note": "",
+      "seq": 355
+    },
+    {
+      "name": "希腊",
+      "region": "EEU",
+      "tag": "GRE",
+      "note": "",
+      "seq": 356
+    },
+    {
+      "name": "黑塞哥维那",
+      "region": "EEU",
+      "tag": "HRZ",
+      "note": "",
+      "seq": 357
+    },
+    {
+      "name": "拉丁帝国",
+      "region": "EEU",
+      "tag": "LAE",
+      "note": "",
+      "seq": 358
+    },
+    {
+      "name": "摩里亚",
+      "region": "EEU",
+      "tag": "MOE",
+      "note": "",
+      "seq": 359
+    },
+    {
+      "name": "黑山",
+      "region": "EEU",
+      "tag": "MON",
+      "note": "",
+      "seq": 360
+    },
+    {
+      "name": "拉古萨",
+      "region": "EEU",
+      "tag": "RAG",
+      "note": "",
+      "seq": 361
+    },
+    {
+      "name": "塞尔维亚",
+      "region": "EEU",
+      "tag": "SER",
+      "note": "",
+      "seq": 362
+    },
+    {
+      "name": "奥斯曼",
+      "region": "EEU",
+      "tag": "TUR",
+      "note": "",
+      "seq": 363
+    },
+    {
+      "name": "阿斯特拉罕",
+      "region": "EEU",
+      "tag": "AST",
+      "note": "",
+      "seq": 364
+    },
+    {
+      "name": "克里米亚",
+      "region": "EEU",
+      "tag": "CRI",
+      "note": "",
+      "seq": 365
+    },
+    {
+      "name": "狄奥多罗",
+      "region": "EEU",
+      "tag": "FEO",
+      "note": "",
+      "seq": 366
+    },
+    {
+      "name": "大帐",
+      "region": "EEU",
+      "tag": "GOL",
+      "note": "",
+      "seq": 367
+    },
+    {
+      "name": "卡尔梅克",
+      "region": "EEU",
+      "tag": "KLM",
+      "note": "",
+      "seq": 368
+    },
+    {
+      "name": "扎波罗热",
+      "region": "EEU",
+      "tag": "ZAZ",
+      "note": "",
+      "seq": 369
+    },
+    {
+      "name": "巴什基尔",
+      "region": "EEU",
+      "tag": "BSH",
+      "note": "",
+      "seq": 370
+    },
+    {
+      "name": "金帐",
+      "region": "EEU",
+      "tag": "GLH",
+      "note": "",
+      "seq": 371
+    },
+    {
+      "name": "喀山",
+      "region": "EEU",
+      "tag": "KAZ",
+      "note": "",
+      "seq": 372
+    },
+    {
+      "name": "下诺夫哥罗德",
+      "region": "EEU",
+      "tag": "NZH",
+      "note": "",
+      "seq": 373
+    },
+    {
+      "name": "彼尔姆",
+      "region": "EEU",
+      "tag": "PRM",
+      "note": "",
+      "seq": 374
+    },
+    {
+      "name": "白羊",
+      "region": "MEAST",
+      "tag": "AKK",
+      "note": "",
+      "seq": 375
+    },
+    {
+      "name": "艾登",
+      "region": "MEAST",
+      "tag": "AYD",
+      "note": "",
+      "seq": 376
+    },
+    {
+      "name": "比特利斯",
+      "region": "MEAST",
+      "tag": "BTL",
+      "note": "",
+      "seq": 377
+    },
+    {
+      "name": "詹达尔",
+      "region": "MEAST",
+      "tag": "CND",
+      "note": "",
+      "seq": 378
+    },
+    {
+      "name": "塞浦路斯",
+      "region": "MEAST",
+      "tag": "CYP",
+      "note": "",
+      "seq": 379
+    },
+    {
+      "name": "杜勒卡迪尔",
+      "region": "MEAST",
+      "tag": "DUL",
+      "note": "",
+      "seq": 380
+    },
+    {
+      "name": "埃雷特纳",
+      "region": "MEAST",
+      "tag": "ERE",
+      "note": "",
+      "seq": 381
+    },
+    {
+      "name": "格尔米扬",
+      "region": "MEAST",
+      "tag": "GRM",
+      "note": "",
+      "seq": 382
+    },
+    {
+      "name": "哈桑凯伊夫",
+      "region": "MEAST",
+      "tag": "HSN",
+      "note": "",
+      "seq": 383
+    },
+    {
+      "name": "卡拉曼",
+      "region": "MEAST",
+      "tag": "KAR",
+      "note": "",
+      "seq": 384
+    },
+    {
+      "name": "医院骑士团",
+      "region": "MEAST",
+      "tag": "KNI",
+      "note": "",
+      "seq": 385
+    },
+    {
+      "name": "门泰谢",
+      "region": "MEAST",
+      "tag": "MEN",
+      "note": "",
+      "seq": 386
+    },
+    {
+      "name": "纳克索斯",
+      "region": "MEAST",
+      "tag": "NAX",
+      "note": "",
+      "seq": 387
+    },
+    {
+      "name": "拉马赞",
+      "region": "MEAST",
+      "tag": "RAM",
+      "note": "",
+      "seq": 388
+    },
+    {
+      "name": "罗姆",
+      "region": "MEAST",
+      "tag": "RUM",
+      "note": "",
+      "seq": 389
+    },
+    {
+      "name": "萨鲁汗",
+      "region": "MEAST",
+      "tag": "SRU",
+      "note": "",
+      "seq": 390
+    },
+    {
+      "name": "特拉比松",
+      "region": "MEAST",
+      "tag": "TRE",
+      "note": "",
+      "seq": 391
+    },
+    {
+      "name": "巴士拉",
+      "region": "MEAST",
+      "tag": "BSR",
+      "note": "",
+      "seq": 392
+    },
+    {
+      "name": "法德勒",
+      "region": "MEAST",
+      "tag": "FAD",
+      "note": "",
+      "seq": 393
+    },
+    {
+      "name": "伊拉克",
+      "region": "MEAST",
+      "tag": "IRQ",
+      "note": "",
+      "seq": 394
+    },
+    {
+      "name": "以色列",
+      "region": "MEAST",
+      "tag": "ISR",
+      "note": "",
+      "seq": 395
+    },
+    {
+      "name": "耶路撒冷",
+      "region": "MEAST",
+      "tag": "KOJ",
+      "note": "",
+      "seq": 396
+    },
+    {
+      "name": "黎巴嫩",
+      "region": "MEAST",
+      "tag": "LEB",
+      "note": "",
+      "seq": 397
+    },
+    {
+      "name": "叙利亚",
+      "region": "MEAST",
+      "tag": "SYR",
+      "note": "",
+      "seq": 398
+    },
+    {
+      "name": "亚丁",
+      "region": "MEAST",
+      "tag": "ADE",
+      "note": "",
+      "seq": 399
+    },
+    {
+      "name": "哈萨",
+      "region": "MEAST",
+      "tag": "ALH",
+      "note": "",
+      "seq": 400
+    },
+    {
+      "name": "阿尼扎",
+      "region": "MEAST",
+      "tag": "ANZ",
+      "note": "",
+      "seq": 401
+    },
+    {
+      "name": "阿拉伯",
+      "region": "MEAST",
+      "tag": "ARB",
+      "note": "",
+      "seq": 402
+    },
+    {
+      "name": "代瓦西尔",
+      "region": "MEAST",
+      "tag": "DAW",
+      "note": "",
+      "seq": 403
+    },
+    {
+      "name": "哈德拉毛",
+      "region": "MEAST",
+      "tag": "HDR",
+      "note": "",
+      "seq": 404
+    },
+    {
+      "name": "汉志",
+      "region": "MEAST",
+      "tag": "HED",
+      "note": "",
+      "seq": 405
+    },
+    {
+      "name": "麦地那",
+      "region": "MEAST",
+      "tag": "MDA",
+      "note": "",
+      "seq": 406
+    },
+    {
+      "name": "米克利夫",
+      "region": "MEAST",
+      "tag": "MFL",
+      "note": "",
+      "seq": 407
+    },
+    {
+      "name": "迈赫拉",
+      "region": "MEAST",
+      "tag": "MHR",
+      "note": "",
+      "seq": 408
+    },
+    {
+      "name": "内志",
+      "region": "MEAST",
+      "tag": "NAJ",
+      "note": "",
+      "seq": 409
+    },
+    {
+      "name": "奈季兰",
+      "region": "MEAST",
+      "tag": "NJR",
+      "note": "",
+      "seq": 410
+    },
+    {
+      "name": "阿曼",
+      "region": "MEAST",
+      "tag": "OMA",
+      "note": "",
+      "seq": 411
+    },
+    {
+      "name": "拉西",
+      "region": "MEAST",
+      "tag": "RAS",
+      "note": "",
+      "seq": 412
+    },
+    {
+      "name": "舍迈尔",
+      "region": "MEAST",
+      "tag": "SHM",
+      "note": "",
+      "seq": 413
+    },
+    {
+      "name": "沙迦",
+      "region": "MEAST",
+      "tag": "SHR",
+      "note": "",
+      "seq": 414
+    },
+    {
+      "name": "亚斯",
+      "region": "MEAST",
+      "tag": "YAS",
+      "note": "",
+      "seq": 415
+    },
+    {
+      "name": "也门",
+      "region": "MEAST",
+      "tag": "YEM",
+      "note": "",
+      "seq": 416
+    },
+    {
+      "name": "埃及",
+      "region": "MEAST",
+      "tag": "EGY",
+      "note": "",
+      "seq": 417
+    },
+    {
+      "name": "马库里亚",
+      "region": "MEAST",
+      "tag": "MAK",
+      "note": "",
+      "seq": 418
+    },
+    {
+      "name": "马穆鲁克",
+      "region": "MEAST",
+      "tag": "MAM",
+      "note": "",
+      "seq": 419
+    },
+    {
+      "name": "阿达兰",
+      "region": "MEAST",
+      "tag": "ARD",
+      "note": "",
+      "seq": 420
+    },
+    {
+      "name": "阿尔达比勒",
+      "region": "MEAST",
+      "tag": "ARL",
+      "note": "",
+      "seq": 421
+    },
+    {
+      "name": "索兰",
+      "region": "MEAST",
+      "tag": "BHT",
+      "note": "",
+      "seq": 422
+    },
+    {
+      "name": "比阿普斯",
+      "region": "MEAST",
+      "tag": "BPI",
+      "note": "",
+      "seq": 423
+    },
+    {
+      "name": "埃兰沙赫尔",
+      "region": "MEAST",
+      "tag": "ERS",
+      "note": "",
+      "seq": 424
+    },
+    {
+      "name": "法尔斯",
+      "region": "MEAST",
+      "tag": "FRS",
+      "note": "",
+      "seq": 425
+    },
+    {
+      "name": "伊利汗国",
+      "region": "MEAST",
+      "tag": "ILK",
+      "note": "",
+      "seq": 426
+    },
+    {
+      "name": "伊斯法罕",
+      "region": "MEAST",
+      "tag": "ISF",
+      "note": "",
+      "seq": 427
+    },
+    {
+      "name": "呼罗珊",
+      "region": "MEAST",
+      "tag": "KHO",
+      "note": "",
+      "seq": 428
+    },
+    {
+      "name": "克尔曼",
+      "region": "MEAST",
+      "tag": "KRM",
+      "note": "",
+      "seq": 429
+    },
+    {
+      "name": "吉兰",
+      "region": "MEAST",
+      "tag": "KRY",
+      "note": "",
+      "seq": 430
+    },
+    {
+      "name": "洛雷斯坦",
+      "region": "MEAST",
+      "tag": "LRI",
+      "note": "",
+      "seq": 431
+    },
+    {
+      "name": "马拉盖",
+      "region": "MEAST",
+      "tag": "MGR",
+      "note": "",
+      "seq": 432
+    },
+    {
+      "name": "穆沙沙",
+      "region": "MEAST",
+      "tag": "MSY",
+      "note": "",
+      "seq": 433
+    },
+    {
+      "name": "霍尔木兹",
+      "region": "MEAST",
+      "tag": "ORM",
+      "note": "",
+      "seq": 434
+    },
+    {
+      "name": "波斯",
+      "region": "MEAST",
+      "tag": "PER",
+      "note": "",
+      "seq": 435
+    },
+    {
+      "name": "黑羊",
+      "region": "MEAST",
+      "tag": "QAR",
+      "note": "",
+      "seq": 436
+    },
+    {
+      "name": "阿贾姆",
+      "region": "MEAST",
+      "tag": "QOM",
+      "note": "",
+      "seq": 437
+    },
+    {
+      "name": "马赞德兰",
+      "region": "MEAST",
+      "tag": "TAB",
+      "note": "",
+      "seq": 438
+    },
+    {
+      "name": "大不里士",
+      "region": "MEAST",
+      "tag": "TBR",
+      "note": "",
+      "seq": 439
+    },
+    {
+      "name": "亚兹德",
+      "region": "MEAST",
+      "tag": "YZD",
+      "note": "",
+      "seq": 440
+    },
+    {
+      "name": "阿富汗",
+      "region": "MEAST",
+      "tag": "AFG",
+      "note": "",
+      "seq": 441
+    },
+    {
+      "name": "俾路支斯坦",
+      "region": "MEAST",
+      "tag": "BAL",
+      "note": "",
+      "seq": 442
+    },
+    {
+      "name": "锡斯坦",
+      "region": "MEAST",
+      "tag": "SIS",
+      "note": "",
+      "seq": 443
+    },
+    {
+      "name": "亚美尼亚",
+      "region": "MEAST",
+      "tag": "ARM",
+      "note": "",
+      "seq": 444
+    },
+    {
+      "name": "阿瓦尔",
+      "region": "MEAST",
+      "tag": "AVR",
+      "note": "",
+      "seq": 445
+    },
+    {
+      "name": "切尔克西亚",
+      "region": "MEAST",
+      "tag": "CIR",
+      "note": "",
+      "seq": 446
+    },
+    {
+      "name": "加齐库穆赫",
+      "region": "MEAST",
+      "tag": "GAZ",
+      "note": "",
+      "seq": 447
+    },
+    {
+      "name": "格鲁吉亚",
+      "region": "MEAST",
+      "tag": "GEO",
+      "note": "",
+      "seq": 448
+    },
+    {
+      "name": "伊梅列季",
+      "region": "MEAST",
+      "tag": "IME",
+      "note": "",
+      "seq": 449
+    },
+    {
+      "name": "卡拉巴赫",
+      "region": "MEAST",
+      "tag": "MLK",
+      "note": "",
+      "seq": 450
+    },
+    {
+      "name": "萨姆茨赫",
+      "region": "MEAST",
+      "tag": "SME",
+      "note": "",
+      "seq": 451
+    },
+    {
+      "name": "希尔凡",
+      "region": "MEAST",
+      "tag": "SRV",
+      "note": "",
+      "seq": 452
+    },
+    {
+      "name": "阿尔及尔",
+      "region": "NAFR",
+      "tag": "ALG",
+      "note": "",
+      "seq": 453
+    },
+    {
+      "name": "非斯",
+      "region": "NAFR",
+      "tag": "FEZ",
+      "note": "",
+      "seq": 454
+    },
+    {
+      "name": "费赞",
+      "region": "NAFR",
+      "tag": "FZA",
+      "note": "",
+      "seq": 455
+    },
+    {
+      "name": "杰里德",
+      "region": "NAFR",
+      "tag": "GHD",
+      "note": "",
+      "seq": 456
+    },
+    {
+      "name": "卡比利亚",
+      "region": "NAFR",
+      "tag": "KBA",
+      "note": "",
+      "seq": 457
+    },
+    {
+      "name": "摩洛哥",
+      "region": "NAFR",
+      "tag": "MOR",
+      "note": "",
+      "seq": 458
+    },
+    {
+      "name": "马拉喀什",
+      "region": "NAFR",
+      "tag": "MRK",
+      "note": "",
+      "seq": 459
+    },
+    {
+      "name": "姆扎卜",
+      "region": "NAFR",
+      "tag": "MZB",
+      "note": "",
+      "seq": 460
+    },
+    {
+      "name": "苏斯",
+      "region": "NAFR",
+      "tag": "SOS",
+      "note": "",
+      "seq": 461
+    },
+    {
+      "name": "得土安",
+      "region": "NAFR",
+      "tag": "TET",
+      "note": "",
+      "seq": 462
+    },
+    {
+      "name": "塔菲拉勒特",
+      "region": "NAFR",
+      "tag": "TFL",
+      "note": "",
+      "seq": 463
+    },
+    {
+      "name": "图古尔特",
+      "region": "NAFR",
+      "tag": "TGT",
+      "note": "",
+      "seq": 464
+    },
+    {
+      "name": "特莱姆森",
+      "region": "NAFR",
+      "tag": "TLC",
+      "note": "",
+      "seq": 465
+    },
+    {
+      "name": "的黎波里",
+      "region": "NAFR",
+      "tag": "TRP",
+      "note": "",
+      "seq": 466
+    },
+    {
+      "name": "突尼斯",
+      "region": "NAFR",
+      "tag": "TUN",
+      "note": "",
+      "seq": 467
+    },
+    {
+      "name": "阿伊尔",
+      "region": "NAFR",
+      "tag": "AIR",
+      "note": "",
+      "seq": 468
+    },
+    {
+      "name": "达尔富尔",
+      "region": "NAFR",
+      "tag": "DAR",
+      "note": "",
+      "seq": 469
+    },
+    {
+      "name": "卡奈姆-博尔努",
+      "region": "NAFR",
+      "tag": "KBO",
+      "note": "",
+      "seq": 470
+    },
+    {
+      "name": "桑海",
+      "region": "NAFR",
+      "tag": "SON",
+      "note": "",
+      "seq": 471
+    },
+    {
+      "name": "廷巴克图",
+      "region": "NAFR",
+      "tag": "TMB",
+      "note": "",
+      "seq": 472
+    },
+    {
+      "name": "瓦达伊",
+      "region": "NAFR",
+      "tag": "WAD",
+      "note": "",
+      "seq": 473
+    },
+    {
+      "name": "亚奥",
+      "region": "NAFR",
+      "tag": "YAO",
+      "note": "",
+      "seq": 474
+    },
+    {
+      "name": "马西纳",
+      "region": "NAFR",
+      "tag": "ZAF",
+      "note": "",
+      "seq": 475
+    },
+    {
+      "name": "阿散蒂",
+      "region": "NAFR",
+      "tag": "ASH",
+      "note": "",
+      "seq": 476
+    },
+    {
+      "name": "博诺曼",
+      "region": "NAFR",
+      "tag": "BON",
+      "note": "",
+      "seq": 477
+    },
+    {
+      "name": "达荷美",
+      "region": "NAFR",
+      "tag": "DAH",
+      "note": "",
+      "seq": 478
+    },
+    {
+      "name": "达格邦",
+      "region": "NAFR",
+      "tag": "DGB",
+      "note": "",
+      "seq": 479
+    },
+    {
+      "name": "富洛",
+      "region": "NAFR",
+      "tag": "FUL",
+      "note": "",
+      "seq": 480
+    },
+    {
+      "name": "法达恩古尔马",
+      "region": "NAFR",
+      "tag": "GUR",
+      "note": "",
+      "seq": 481
+    },
+    {
+      "name": "豪萨",
+      "region": "NAFR",
+      "tag": "HAU",
+      "note": "",
+      "seq": 482
+    },
+    {
+      "name": "杰内",
+      "region": "NAFR",
+      "tag": "JNN",
+      "note": "",
+      "seq": 483
+    },
+    {
+      "name": "卡诺",
+      "region": "NAFR",
+      "tag": "KAN",
+      "note": "",
+      "seq": 484
+    },
+    {
+      "name": "孔",
+      "region": "NAFR",
+      "tag": "KNG",
+      "note": "",
+      "seq": 485
+    },
+    {
+      "name": "卡齐纳",
+      "region": "NAFR",
+      "tag": "KTS",
+      "note": "",
+      "seq": 486
+    },
+    {
+      "name": "马里",
+      "region": "NAFR",
+      "tag": "MAL",
+      "note": "",
+      "seq": 487
+    },
+    {
+      "name": "莫西",
+      "region": "NAFR",
+      "tag": "MSI",
+      "note": "",
+      "seq": 488
+    },
+    {
+      "name": "努佩",
+      "region": "NAFR",
+      "tag": "NUP",
+      "note": "",
+      "seq": 489
+    },
+    {
+      "name": "奥约",
+      "region": "NAFR",
+      "tag": "OYO",
+      "note": "",
+      "seq": 490
+    },
+    {
+      "name": "塞古",
+      "region": "NAFR",
+      "tag": "SOF",
+      "note": "",
+      "seq": 491
+    },
+    {
+      "name": "索科托",
+      "region": "NAFR",
+      "tag": "SOK",
+      "note": "",
+      "seq": 492
+    },
+    {
+      "name": "滕科多戈",
+      "region": "NAFR",
+      "tag": "TEN",
+      "note": "",
+      "seq": 493
+    },
+    {
+      "name": "瓦加杜古",
+      "region": "NAFR",
+      "tag": "WGD",
+      "note": "",
+      "seq": 494
+    },
+    {
+      "name": "雅滕加",
+      "region": "NAFR",
+      "tag": "YAT",
+      "note": "",
+      "seq": 495
+    },
+    {
+      "name": "赞多马",
+      "region": "NAFR",
+      "tag": "ZND",
+      "note": "",
+      "seq": 496
+    },
+    {
+      "name": "扎造",
+      "region": "NAFR",
+      "tag": "ZZZ",
+      "note": "",
+      "seq": 497
+    },
+    {
+      "name": "贝宁",
+      "region": "NAFR",
+      "tag": "BEN",
+      "note": "",
+      "seq": 498
+    },
+    {
+      "name": "卓洛夫",
+      "region": "NAFR",
+      "tag": "JOL",
+      "note": "",
+      "seq": 499
+    },
+    {
+      "name": "卡布",
+      "region": "NAFR",
+      "tag": "KBU",
+      "note": "",
+      "seq": 500
+    },
+    {
+      "name": "栋古拉",
+      "region": "NAFR",
+      "tag": "ABB",
+      "note": "",
+      "seq": 501
+    },
+    {
+      "name": "阿达尔",
+      "region": "NAFR",
+      "tag": "ADA",
+      "note": "",
+      "seq": 502
+    },
+    {
+      "name": "奥萨",
+      "region": "NAFR",
+      "tag": "AFA",
+      "note": "",
+      "seq": 503
+    },
+    {
+      "name": "阿朱兰",
+      "region": "NAFR",
+      "tag": "AJU",
+      "note": "",
+      "seq": 504
+    },
+    {
+      "name": "阿克苏姆",
+      "region": "NAFR",
+      "tag": "AKS",
+      "note": "",
+      "seq": 505
+    },
+    {
+      "name": "阿洛迪亚",
+      "region": "NAFR",
+      "tag": "ALO",
+      "note": "",
+      "seq": 506
+    },
+    {
+      "name": "贝扎",
+      "region": "NAFR",
+      "tag": "BEJ",
+      "note": "",
+      "seq": 507
+    },
+    {
+      "name": "塞米恩",
+      "region": "NAFR",
+      "tag": "BTI",
+      "note": "",
+      "seq": 508
+    },
+    {
+      "name": "达莫特",
+      "region": "NAFR",
+      "tag": "DAM",
+      "note": "",
+      "seq": 509
+    },
+    {
+      "name": "伊那瑞亚",
+      "region": "NAFR",
+      "tag": "ENA",
+      "note": "",
+      "seq": 510
+    },
+    {
+      "name": "埃塞俄比亚",
+      "region": "NAFR",
+      "tag": "ETH",
+      "note": "",
+      "seq": 511
+    },
+    {
+      "name": "格勒迪",
+      "region": "NAFR",
+      "tag": "GLE",
+      "note": "",
+      "seq": 512
+    },
+    {
+      "name": "哈勒尔",
+      "region": "NAFR",
+      "tag": "HAR",
+      "note": "",
+      "seq": 513
+    },
+    {
+      "name": "哈迪亚",
+      "region": "NAFR",
+      "tag": "HDY",
+      "note": "",
+      "seq": 514
+    },
+    {
+      "name": "霍比奥",
+      "region": "NAFR",
+      "tag": "HOB",
+      "note": "",
+      "seq": 515
+    },
+    {
+      "name": "吉马",
+      "region": "NAFR",
+      "tag": "JIM",
+      "note": "",
+      "seq": 516
+    },
+    {
+      "name": "詹吉罗",
+      "region": "NAFR",
+      "tag": "JJI",
+      "note": "",
+      "seq": 517
+    },
+    {
+      "name": "咖法",
+      "region": "NAFR",
+      "tag": "KAF",
+      "note": "",
+      "seq": 518
+    },
+    {
+      "name": "摩加迪沙",
+      "region": "NAFR",
+      "tag": "MDI",
+      "note": "",
+      "seq": 519
+    },
+    {
+      "name": "梅德利巴赫里",
+      "region": "NAFR",
+      "tag": "MED",
+      "note": "",
+      "seq": 520
+    },
+    {
+      "name": "马吉尔廷",
+      "region": "NAFR",
+      "tag": "MJE",
+      "note": "",
+      "seq": 521
+    },
+    {
+      "name": "马雷汉",
+      "region": "NAFR",
+      "tag": "MRE",
+      "note": "",
+      "seq": 522
+    },
+    {
+      "name": "努比亚",
+      "region": "NAFR",
+      "tag": "NBI",
+      "note": "",
+      "seq": 523
+    },
+    {
+      "name": "丰吉",
+      "region": "NAFR",
+      "tag": "NUB",
+      "note": "",
+      "seq": 524
+    },
+    {
+      "name": "欧加登",
+      "region": "NAFR",
+      "tag": "OGD",
+      "note": "",
+      "seq": 525
+    },
+    {
+      "name": "绍阿",
+      "region": "NAFR",
+      "tag": "SOA",
+      "note": "",
+      "seq": 526
+    },
+    {
+      "name": "索马里",
+      "region": "NAFR",
+      "tag": "SOM",
+      "note": "",
+      "seq": 527
+    },
+    {
+      "name": "瓦尔桑盖利",
+      "region": "NAFR",
+      "tag": "WAR",
+      "note": "",
+      "seq": 528
+    },
+    {
+      "name": "瓦莱提",
+      "region": "NAFR",
+      "tag": "WLY",
+      "note": "",
+      "seq": 529
+    },
+    {
+      "name": "安泰莫罗",
+      "region": "SAFR",
+      "tag": "ANT",
+      "note": "",
+      "seq": 530
+    },
+    {
+      "name": "贝齐米萨拉卡",
+      "region": "SAFR",
+      "tag": "BTS",
+      "note": "",
+      "seq": 531
+    },
+    {
+      "name": "隆杜",
+      "region": "SAFR",
+      "tag": "LDU",
+      "note": "",
+      "seq": 532
+    },
+    {
+      "name": "利贝塔蒂亚",
+      "region": "SAFR",
+      "tag": "LIB",
+      "note": "",
+      "seq": 533
+    },
+    {
+      "name": "蒙巴萨",
+      "region": "SAFR",
+      "tag": "MBA",
+      "note": "",
+      "seq": 534
+    },
+    {
+      "name": "马哈法利",
+      "region": "SAFR",
+      "tag": "MFY",
+      "note": "",
+      "seq": 535
+    },
+    {
+      "name": "梅里纳",
+      "region": "SAFR",
+      "tag": "MIR",
+      "note": "",
+      "seq": 536
+    },
+    {
+      "name": "马库阿",
+      "region": "SAFR",
+      "tag": "MKU",
+      "note": "",
+      "seq": 537
+    },
+    {
+      "name": "马林迪",
+      "region": "SAFR",
+      "tag": "MLI",
+      "note": "",
+      "seq": 538
+    },
+    {
+      "name": "马拉维",
+      "region": "SAFR",
+      "tag": "MRA",
+      "note": "",
+      "seq": 539
+    },
+    {
+      "name": "帕泰",
+      "region": "SAFR",
+      "tag": "PTE",
+      "note": "",
+      "seq": 540
+    },
+    {
+      "name": "萨卡拉瓦",
+      "region": "SAFR",
+      "tag": "SKA",
+      "note": "",
+      "seq": 541
+    },
+    {
+      "name": "通布卡",
+      "region": "SAFR",
+      "tag": "TBK",
+      "note": "",
+      "seq": 542
+    },
+    {
+      "name": "基尔瓦",
+      "region": "SAFR",
+      "tag": "ZAN",
+      "note": "",
+      "seq": 543
+    },
+    {
+      "name": "刚果",
+      "region": "SAFR",
+      "tag": "KON",
+      "note": "",
+      "seq": 544
+    },
+    {
+      "name": "卡桑吉",
+      "region": "SAFR",
+      "tag": "KSJ",
+      "note": "",
+      "seq": 545
+    },
+    {
+      "name": "隆达",
+      "region": "SAFR",
+      "tag": "LND",
+      "note": "",
+      "seq": 546
+    },
+    {
+      "name": "卢安果",
+      "region": "SAFR",
+      "tag": "LOA",
+      "note": "",
+      "seq": 547
+    },
+    {
+      "name": "恩东戈",
+      "region": "SAFR",
+      "tag": "NDO",
+      "note": "",
+      "seq": 548
+    },
+    {
+      "name": "索约",
+      "region": "SAFR",
+      "tag": "SYO",
+      "note": "",
+      "seq": 549
+    },
+    {
+      "name": "特约",
+      "region": "SAFR",
+      "tag": "TYO",
+      "note": "",
+      "seq": 550
+    },
+    {
+      "name": "雅卡",
+      "region": "SAFR",
+      "tag": "YAK",
+      "note": "",
+      "seq": 551
+    },
+    {
+      "name": "津巴布韦",
+      "region": "SAFR",
+      "tag": "GZI",
+      "note": "",
+      "seq": 552
+    },
+    {
+      "name": "罗兹维帝国",
+      "region": "SAFR",
+      "tag": "RZI",
+      "note": "",
+      "seq": 553
+    },
+    {
+      "name": "布图阿",
+      "region": "SAFR",
+      "tag": "RZW",
+      "note": "",
+      "seq": 554
+    },
+    {
+      "name": "索法拉",
+      "region": "SAFR",
+      "tag": "SFA",
+      "note": "",
+      "seq": 555
+    },
+    {
+      "name": "穆塔帕",
+      "region": "SAFR",
+      "tag": "ZIM",
+      "note": "",
+      "seq": 556
+    },
+    {
+      "name": "祖鲁",
+      "region": "SAFR",
+      "tag": "ZUL",
+      "note": "",
+      "seq": 557
+    },
+    {
+      "name": "布尼奥罗",
+      "region": "SAFR",
+      "tag": "BNY",
+      "note": "",
+      "seq": 558
+    },
+    {
+      "name": "布索加",
+      "region": "SAFR",
+      "tag": "BSG",
+      "note": "",
+      "seq": 559
+    },
+    {
+      "name": "布干达",
+      "region": "SAFR",
+      "tag": "BUG",
+      "note": "",
+      "seq": 560
+    },
+    {
+      "name": "布隆迪",
+      "region": "SAFR",
+      "tag": "BUU",
+      "note": "",
+      "seq": 561
+    },
+    {
+      "name": "绍奎",
+      "region": "SAFR",
+      "tag": "CKW",
+      "note": "",
+      "seq": 562
+    },
+    {
+      "name": "基孔贾",
+      "region": "SAFR",
+      "tag": "KIK",
+      "note": "",
+      "seq": 563
+    },
+    {
+      "name": "基塔拉",
+      "region": "SAFR",
+      "tag": "KIT",
+      "note": "",
+      "seq": 564
+    },
+    {
+      "name": "卡隆兑",
+      "region": "SAFR",
+      "tag": "KLD",
+      "note": "",
+      "seq": 565
+    },
+    {
+      "name": "卡拉圭",
+      "region": "SAFR",
+      "tag": "KRW",
+      "note": "",
+      "seq": 566
+    },
+    {
+      "name": "库巴",
+      "region": "SAFR",
+      "tag": "KUB",
+      "note": "",
+      "seq": 567
+    },
+    {
+      "name": "卡曾贝",
+      "region": "SAFR",
+      "tag": "KZB",
+      "note": "",
+      "seq": 568
+    },
+    {
+      "name": "卢巴",
+      "region": "SAFR",
+      "tag": "LUB",
+      "note": "",
+      "seq": 569
+    },
+    {
+      "name": "安科莱",
+      "region": "SAFR",
+      "tag": "NKO",
+      "note": "",
+      "seq": 570
+    },
+    {
+      "name": "卢旺达",
+      "region": "SAFR",
+      "tag": "RWA",
+      "note": "",
+      "seq": 571
+    },
+    {
+      "name": "布哈",
+      "region": "SAFR",
+      "tag": "UBH",
+      "note": "",
+      "seq": 572
+    },
+    {
+      "name": "巴克尔根德",
+      "region": "IND",
+      "tag": "BGL",
+      "note": "",
+      "seq": 573
+    },
+    {
+      "name": "婆罗多",
+      "region": "IND",
+      "tag": "BHA",
+      "note": "",
+      "seq": 574
+    },
+    {
+      "name": "本德尔肯德",
+      "region": "IND",
+      "tag": "BND",
+      "note": "",
+      "seq": 575
+    },
+    {
+      "name": "德里",
+      "region": "IND",
+      "tag": "DLH",
+      "note": "",
+      "seq": 576
+    },
+    {
+      "name": "丹格",
+      "region": "IND",
+      "tag": "DNG",
+      "note": "",
+      "seq": 577
+    },
+    {
+      "name": "多提",
+      "region": "IND",
+      "tag": "DTI",
+      "note": "",
+      "seq": 578
+    },
+    {
+      "name": "加瓦尔",
+      "region": "IND",
+      "tag": "GHR",
+      "note": "",
+      "seq": 579
+    },
+    {
+      "name": "廓尔喀",
+      "region": "IND",
+      "tag": "GRK",
+      "note": "",
+      "seq": 580
+    },
+    {
+      "name": "瓜廖尔",
+      "region": "IND",
+      "tag": "GWA",
+      "note": "",
+      "seq": 581
+    },
+    {
+      "name": "哈多提",
+      "region": "IND",
+      "tag": "HAD",
+      "note": "",
+      "seq": 582
+    },
+    {
+      "name": "印度斯坦",
+      "region": "IND",
+      "tag": "HIN",
+      "note": "",
+      "seq": 583
+    },
+    {
+      "name": "久姆拉",
+      "region": "IND",
+      "tag": "JML",
+      "note": "",
+      "seq": 584
+    },
+    {
+      "name": "章普尔",
+      "region": "IND",
+      "tag": "JNP",
+      "note": "",
+      "seq": 585
+    },
+    {
+      "name": "冈格拉",
+      "region": "IND",
+      "tag": "KGR",
+      "note": "",
+      "seq": 586
+    },
+    {
+      "name": "迦尔毗",
+      "region": "IND",
+      "tag": "KLP",
+      "note": "",
+      "seq": 587
+    },
+    {
+      "name": "库马翁",
+      "region": "IND",
+      "tag": "KMN",
+      "note": "",
+      "seq": 588
+    },
+    {
+      "name": "克什米尔",
+      "region": "IND",
+      "tag": "KSH",
+      "note": "",
+      "seq": 589
+    },
+    {
+      "name": "加德满都",
+      "region": "IND",
+      "tag": "KTU",
+      "note": "",
+      "seq": 590
+    },
+    {
+      "name": "拉达克",
+      "region": "IND",
+      "tag": "LDK",
+      "note": "",
+      "seq": 591
+    },
+    {
+      "name": "林布旺",
+      "region": "IND",
+      "tag": "LWA",
+      "note": "",
+      "seq": 592
+    },
+    {
+      "name": "马克万普尔",
+      "region": "IND",
+      "tag": "MKP",
+      "note": "",
+      "seq": 593
+    },
+    {
+      "name": "莫卧儿",
+      "region": "IND",
+      "tag": "MUG",
+      "note": "",
+      "seq": 594
+    },
+    {
+      "name": "木尔坦",
+      "region": "IND",
+      "tag": "MUL",
+      "note": "",
+      "seq": 595
+    },
+    {
+      "name": "尼泊尔",
+      "region": "IND",
+      "tag": "NPL",
+      "note": "",
+      "seq": 596
+    },
+    {
+      "name": "奥德",
+      "region": "IND",
+      "tag": "ODH",
+      "note": "",
+      "seq": 597
+    },
+    {
+      "name": "卡林贾尔",
+      "region": "IND",
+      "tag": "PAN",
+      "note": "",
+      "seq": 598
+    },
+    {
+      "name": "伯蒂亚拉",
+      "region": "IND",
+      "tag": "PTA",
+      "note": "",
+      "seq": 599
+    },
+    {
+      "name": "旁遮普",
+      "region": "IND",
+      "tag": "PUN",
+      "note": "",
+      "seq": 600
+    },
+    {
+      "name": "拉杰普塔纳",
+      "region": "IND",
+      "tag": "RJP",
+      "note": "",
+      "seq": 601
+    },
+    {
+      "name": "罗希尔坎德",
+      "region": "IND",
+      "tag": "RMP",
+      "note": "",
+      "seq": 602
+    },
+    {
+      "name": "苏古贾",
+      "region": "IND",
+      "tag": "SRG",
+      "note": "",
+      "seq": 603
+    },
+    {
+      "name": "西尔欣德",
+      "region": "IND",
+      "tag": "SRH",
+      "note": "",
+      "seq": 604
+    },
+    {
+      "name": "色姆尔",
+      "region": "IND",
+      "tag": "SRM",
+      "note": "",
+      "seq": 605
+    },
+    {
+      "name": "蒂鲁德",
+      "region": "IND",
+      "tag": "TRT",
+      "note": "",
+      "seq": 606
+    },
+    {
+      "name": "阿萨姆",
+      "region": "IND",
+      "tag": "ASS",
+      "note": "",
+      "seq": 607
+    },
+    {
+      "name": "孟加拉",
+      "region": "IND",
+      "tag": "BNG",
+      "note": "",
+      "seq": 608
+    },
+    {
+      "name": "巴斯塔",
+      "region": "IND",
+      "tag": "BST",
+      "note": "",
+      "seq": 609
+    },
+    {
+      "name": "东印度公司",
+      "region": "IND",
+      "tag": "EIC",
+      "note": "",
+      "seq": 610
+    },
+    {
+      "name": "迦贾德",
+      "region": "IND",
+      "tag": "GRJ",
+      "note": "",
+      "seq": 611
+    },
+    {
+      "name": "杰伊普尔",
+      "region": "IND",
+      "tag": "JPR",
+      "note": "",
+      "seq": 612
+    },
+    {
+      "name": "卡恰尔",
+      "region": "IND",
+      "tag": "KAC",
+      "note": "",
+      "seq": 613
+    },
+    {
+      "name": "凯翁贾尔",
+      "region": "IND",
+      "tag": "KJH",
+      "note": "",
+      "seq": 614
+    },
+    {
+      "name": "卡拉汉迪",
+      "region": "IND",
+      "tag": "KLH",
+      "note": "",
+      "seq": 615
+    },
+    {
+      "name": "科奇",
+      "region": "IND",
+      "tag": "KMT",
+      "note": "",
+      "seq": 616
+    },
+    {
+      "name": "毗湿奴普尔",
+      "region": "IND",
+      "tag": "MBL",
+      "note": "",
+      "seq": 617
+    },
+    {
+      "name": "曼尼普尔",
+      "region": "IND",
+      "tag": "MLB",
+      "note": "",
+      "seq": 618
+    },
+    {
+      "name": "贾坎德",
+      "region": "IND",
+      "tag": "NGP",
+      "note": "",
+      "seq": 619
+    },
+    {
+      "name": "奥里萨",
+      "region": "IND",
+      "tag": "ORI",
+      "note": "",
+      "seq": 620
+    },
+    {
+      "name": "帕拉克米迪",
+      "region": "IND",
+      "tag": "PRD",
+      "note": "",
+      "seq": 621
+    },
+    {
+      "name": "巴特那",
+      "region": "IND",
+      "tag": "PTT",
+      "note": "",
+      "seq": 622
+    },
+    {
+      "name": "拉坦普尔",
+      "region": "IND",
+      "tag": "RTT",
+      "note": "",
+      "seq": 623
+    },
+    {
+      "name": "萨姆巴尔普尔",
+      "region": "IND",
+      "tag": "SBP",
+      "note": "",
+      "seq": 624
+    },
+    {
+      "name": "萨地亚",
+      "region": "IND",
+      "tag": "SDY",
+      "note": "",
+      "seq": 625
+    },
+    {
+      "name": "特里普拉",
+      "region": "IND",
+      "tag": "TPR",
+      "note": "",
+      "seq": 626
+    },
+    {
+      "name": "联合东印度公司",
+      "region": "IND",
+      "tag": "VOC",
+      "note": "",
+      "seq": 627
+    },
+    {
+      "name": "巴罗达",
+      "region": "IND",
+      "tag": "BDA",
+      "note": "",
+      "seq": 628
+    },
+    {
+      "name": "巴格拉纳",
+      "region": "IND",
+      "tag": "BGA",
+      "note": "",
+      "seq": 629
+    },
+    {
+      "name": "雷瓦坎塔",
+      "region": "IND",
+      "tag": "CMP",
+      "note": "",
+      "seq": 630
+    },
+    {
+      "name": "敦达尔",
+      "region": "IND",
+      "tag": "DHU",
+      "note": "",
+      "seq": 631
+    },
+    {
+      "name": "古吉拉特",
+      "region": "IND",
+      "tag": "GUJ",
+      "note": "",
+      "seq": 632
+    },
+    {
+      "name": "伊达尔",
+      "region": "IND",
+      "tag": "IDR",
+      "note": "",
+      "seq": 633
+    },
+    {
+      "name": "禅伽罗",
+      "region": "IND",
+      "tag": "JAN",
+      "note": "",
+      "seq": 634
+    },
+    {
+      "name": "朱纳格特",
+      "region": "IND",
+      "tag": "JGD",
+      "note": "",
+      "seq": 635
+    },
+    {
+      "name": "恰拉瓦尔",
+      "region": "IND",
+      "tag": "JLV",
+      "note": "",
+      "seq": 636
+    },
+    {
+      "name": "斋沙默尔",
+      "region": "IND",
+      "tag": "JSL",
+      "note": "",
+      "seq": 637
+    },
+    {
+      "name": "卡奇",
+      "region": "IND",
+      "tag": "KAT",
+      "note": "",
+      "seq": 638
+    },
+    {
+      "name": "坎德什",
+      "region": "IND",
+      "tag": "KHD",
+      "note": "",
+      "seq": 639
+    },
+    {
+      "name": "马尔瓦尔",
+      "region": "IND",
+      "tag": "MAW",
+      "note": "",
+      "seq": 640
+    },
+    {
+      "name": "梅瓦尔",
+      "region": "IND",
+      "tag": "MER",
+      "note": "",
+      "seq": 641
+    },
+    {
+      "name": "梅瓦特",
+      "region": "IND",
+      "tag": "MEW",
+      "note": "",
+      "seq": 642
+    },
+    {
+      "name": "摩腊婆",
+      "region": "IND",
+      "tag": "MLW",
+      "note": "",
+      "seq": 643
+    },
+    {
+      "name": "纳高尔",
+      "region": "IND",
+      "tag": "NGA",
+      "note": "",
+      "seq": 644
+    },
+    {
+      "name": "纳瓦那加",
+      "region": "IND",
+      "tag": "NVR",
+      "note": "",
+      "seq": 645
+    },
+    {
+      "name": "博尔本德尔",
+      "region": "IND",
+      "tag": "PRB",
+      "note": "",
+      "seq": 646
+    },
+    {
+      "name": "巴利塔纳",
+      "region": "IND",
+      "tag": "PTL",
+      "note": "",
+      "seq": 647
+    },
+    {
+      "name": "拉杰果德",
+      "region": "IND",
+      "tag": "RJK",
+      "note": "",
+      "seq": 648
+    },
+    {
+      "name": "信德",
+      "region": "IND",
+      "tag": "SND",
+      "note": "",
+      "seq": 649
+    },
+    {
+      "name": "艾哈迈德纳格尔",
+      "region": "IND",
+      "tag": "AHM",
+      "note": "",
+      "seq": 650
+    },
+    {
+      "name": "巴赫曼尼",
+      "region": "IND",
+      "tag": "BAH",
+      "note": "",
+      "seq": 651
+    },
+    {
+      "name": "比贾布尔",
+      "region": "IND",
+      "tag": "BIJ",
+      "note": "",
+      "seq": 652
+    },
+    {
+      "name": "贝拉尔",
+      "region": "IND",
+      "tag": "BRR",
+      "note": "",
+      "seq": 653
+    },
+    {
+      "name": "昌达",
+      "region": "IND",
+      "tag": "CHD",
+      "note": "",
+      "seq": 654
+    },
+    {
+      "name": "德干",
+      "region": "IND",
+      "tag": "DEC",
+      "note": "",
+      "seq": 655
+    },
+    {
+      "name": "加哈",
+      "region": "IND",
+      "tag": "GDW",
+      "note": "",
+      "seq": 656
+    },
+    {
+      "name": "戈尔孔达",
+      "region": "IND",
+      "tag": "GOC",
+      "note": "",
+      "seq": 657
+    },
+    {
+      "name": "哈卜尚",
+      "region": "IND",
+      "tag": "JAJ",
+      "note": "",
+      "seq": 658
+    },
+    {
+      "name": "开拉迪",
+      "region": "IND",
+      "tag": "KLN",
+      "note": "",
+      "seq": 659
+    },
+    {
+      "name": "科拉舒纳德",
+      "region": "IND",
+      "tag": "KLT",
+      "note": "",
+      "seq": 660
+    },
+    {
+      "name": "科钦",
+      "region": "IND",
+      "tag": "KOC",
+      "note": "",
+      "seq": 661
+    },
+    {
+      "name": "卡利卡特",
+      "region": "IND",
+      "tag": "MAB",
+      "note": "",
+      "seq": 662
+    },
+    {
+      "name": "马拉塔",
+      "region": "IND",
+      "tag": "MAR",
+      "note": "",
+      "seq": 663
+    },
+    {
+      "name": "迈索尔",
+      "region": "IND",
+      "tag": "MYS",
+      "note": "",
+      "seq": 664
+    },
+    {
+      "name": "那格浦尔",
+      "region": "IND",
+      "tag": "NAG",
+      "note": "",
+      "seq": 665
+    },
+    {
+      "name": "特伦甘纳",
+      "region": "IND",
+      "tag": "TLG",
+      "note": "",
+      "seq": 666
+    },
+    {
+      "name": "毗奢耶那伽罗",
+      "region": "IND",
+      "tag": "VIJ",
+      "note": "",
+      "seq": 667
+    },
+    {
+      "name": "维纳德",
+      "region": "IND",
+      "tag": "VND",
+      "note": "",
+      "seq": 668
+    },
+    {
+      "name": "科特",
+      "region": "IND",
+      "tag": "CEY",
+      "note": "",
+      "seq": 669
+    },
+    {
+      "name": "京吉",
+      "region": "IND",
+      "tag": "GNG",
+      "note": "",
+      "seq": 670
+    },
+    {
+      "name": "贾夫纳",
+      "region": "IND",
+      "tag": "JFN",
+      "note": "",
+      "seq": 671
+    },
+    {
+      "name": "康提",
+      "region": "IND",
+      "tag": "KND",
+      "note": "",
+      "seq": 672
+    },
+    {
+      "name": "卡纳提克",
+      "region": "IND",
+      "tag": "KRK",
+      "note": "",
+      "seq": 673
+    },
+    {
+      "name": "马杜赖",
+      "region": "IND",
+      "tag": "MAD",
+      "note": "",
+      "seq": 674
+    },
+    {
+      "name": "坦焦尔",
+      "region": "IND",
+      "tag": "TNJ",
+      "note": "",
+      "seq": 675
+    },
+    {
+      "name": "安得拉",
+      "region": "IND",
+      "tag": "YOR",
+      "note": "",
+      "seq": 676
+    },
+    {
+      "name": "阿拉干",
+      "region": "EIND",
+      "tag": "ARK",
+      "note": "",
+      "seq": 677
+    },
+    {
+      "name": "阿瓦",
+      "region": "EIND",
+      "tag": "AVA",
+      "note": "",
+      "seq": 678
+    },
+    {
+      "name": "卑谬",
+      "region": "EIND",
+      "tag": "BPR",
+      "note": "",
+      "seq": 679
+    },
+    {
+      "name": "兴威",
+      "region": "EIND",
+      "tag": "HSE",
+      "note": "",
+      "seq": 680
+    },
+    {
+      "name": "昔卜",
+      "region": "EIND",
+      "tag": "HSI",
+      "note": "",
+      "seq": 681
+    },
+    {
+      "name": "格礼",
+      "region": "EIND",
+      "tag": "KAL",
+      "note": "",
+      "seq": 682
+    },
+    {
+      "name": "孟拱",
+      "region": "EIND",
+      "tag": "MKA",
+      "note": "",
+      "seq": 683
+    },
+    {
+      "name": "孟乃",
+      "region": "EIND",
+      "tag": "MNI",
+      "note": "",
+      "seq": 684
+    },
+    {
+      "name": "孟拜",
+      "region": "EIND",
+      "tag": "MPA",
+      "note": "",
+      "seq": 685
+    },
+    {
+      "name": "孟养",
+      "region": "EIND",
+      "tag": "MYA",
+      "note": "",
+      "seq": 686
+    },
+    {
+      "name": "勃固",
+      "region": "EIND",
+      "tag": "PEG",
+      "note": "",
+      "seq": 687
+    },
+    {
+      "name": "掸邦",
+      "region": "EIND",
+      "tag": "SST",
+      "note": "",
+      "seq": 688
+    },
+    {
+      "name": "东吁",
+      "region": "EIND",
+      "tag": "TAU",
+      "note": "",
+      "seq": 689
+    },
+    {
+      "name": "亚齐",
+      "region": "EIND",
+      "tag": "ATJ",
+      "note": "",
+      "seq": 690
+    },
+    {
+      "name": "巴鲁斯",
+      "region": "EIND",
+      "tag": "BRS",
+      "note": "",
+      "seq": 691
+    },
+    {
+      "name": "马尔代夫",
+      "region": "EIND",
+      "tag": "DGL",
+      "note": "",
+      "seq": 692
+    },
+    {
+      "name": "碟里",
+      "region": "EIND",
+      "tag": "DLI",
+      "note": "",
+      "seq": 693
+    },
+    {
+      "name": "因陀罗补罗",
+      "region": "EIND",
+      "tag": "IND",
+      "note": "",
+      "seq": 694
+    },
+    {
+      "name": "占碑",
+      "region": "EIND",
+      "tag": "JMB",
+      "note": "",
+      "seq": 695
+    },
+    {
+      "name": "柔佛",
+      "region": "EIND",
+      "tag": "JOH",
+      "note": "",
+      "seq": 696
+    },
+    {
+      "name": "吉打",
+      "region": "EIND",
+      "tag": "KED",
+      "note": "",
+      "seq": 697
+    },
+    {
+      "name": "吉兰丹",
+      "region": "EIND",
+      "tag": "KEL",
+      "note": "",
+      "seq": 698
+    },
+    {
+      "name": "洛坤",
+      "region": "EIND",
+      "tag": "LIG",
+      "note": "",
+      "seq": 699
+    },
+    {
+      "name": "马六甲",
+      "region": "EIND",
+      "tag": "MLC",
+      "note": "",
+      "seq": 700
+    },
+    {
+      "name": "马来亚",
+      "region": "EIND",
+      "tag": "MSA",
+      "note": "",
+      "seq": 701
+    },
+    {
+      "name": "彭亨",
+      "region": "EIND",
+      "tag": "PAH",
+      "note": "",
+      "seq": 702
+    },
+    {
+      "name": "北大年",
+      "region": "EIND",
+      "tag": "PAT",
+      "note": "",
+      "seq": 703
+    },
+    {
+      "name": "帕迦鲁荣",
+      "region": "EIND",
+      "tag": "PGR",
+      "note": "",
+      "seq": 704
+    },
+    {
+      "name": "巴邻旁",
+      "region": "EIND",
+      "tag": "PLB",
+      "note": "",
+      "seq": 705
+    },
+    {
+      "name": "霹雳",
+      "region": "EIND",
+      "tag": "PRK",
+      "note": "",
+      "seq": 706
+    },
+    {
+      "name": "八昔",
+      "region": "EIND",
+      "tag": "PSA",
+      "note": "",
+      "seq": 707
+    },
+    {
+      "name": "锡亚克",
+      "region": "EIND",
+      "tag": "SAK",
+      "note": "",
+      "seq": 708
+    },
+    {
+      "name": "波尼",
+      "region": "EIND",
+      "tag": "BNE",
+      "note": "",
+      "seq": 709
+    },
+    {
+      "name": "布敦",
+      "region": "EIND",
+      "tag": "BTN",
+      "note": "",
+      "seq": 710
+    },
+    {
+      "name": "武端",
+      "region": "EIND",
+      "tag": "BTU",
+      "note": "",
+      "seq": 711
+    },
+    {
+      "name": "宿务",
+      "region": "EIND",
+      "tag": "CEB",
+      "note": "",
+      "seq": 712
+    },
+    {
+      "name": "拉瑙",
+      "region": "EIND",
+      "tag": "LNO",
+      "note": "",
+      "seq": 713
+    },
+    {
+      "name": "鲁乌",
+      "region": "EIND",
+      "tag": "LUW",
+      "note": "",
+      "seq": 714
+    },
+    {
+      "name": "马加斯",
+      "region": "EIND",
+      "tag": "MAS",
+      "note": "",
+      "seq": 715
+    },
+    {
+      "name": "马京达瑙",
+      "region": "EIND",
+      "tag": "MGD",
+      "note": "",
+      "seq": 716
+    },
+    {
+      "name": "望加锡",
+      "region": "EIND",
+      "tag": "MKS",
+      "note": "",
+      "seq": 717
+    },
+    {
+      "name": "马尼拉",
+      "region": "EIND",
+      "tag": "MNA",
+      "note": "",
+      "seq": 718
+    },
+    {
+      "name": "邦阿西楠",
+      "region": "EIND",
+      "tag": "PGS",
+      "note": "",
+      "seq": 719
+    },
+    {
+      "name": "苏禄",
+      "region": "EIND",
+      "tag": "SUL",
+      "note": "",
+      "seq": 720
+    },
+    {
+      "name": "汤都",
+      "region": "EIND",
+      "tag": "TDO",
+      "note": "",
+      "seq": 721
+    },
+    {
+      "name": "特尔纳特",
+      "region": "EIND",
+      "tag": "TER",
+      "note": "",
+      "seq": 722
+    },
+    {
+      "name": "蒂多雷",
+      "region": "EIND",
+      "tag": "TID",
+      "note": "",
+      "seq": 723
+    },
+    {
+      "name": "万丹",
+      "region": "EIND",
+      "tag": "BAN",
+      "note": "",
+      "seq": 724
+    },
+    {
+      "name": "文莱",
+      "region": "EIND",
+      "tag": "BEI",
+      "note": "",
+      "seq": 725
+    },
+    {
+      "name": "伯劳",
+      "region": "EIND",
+      "tag": "BEU",
+      "note": "",
+      "seq": 726
+    },
+    {
+      "name": "巴厘",
+      "region": "EIND",
+      "tag": "BLI",
+      "note": "",
+      "seq": 727
+    },
+    {
+      "name": "布兰邦岸",
+      "region": "EIND",
+      "tag": "BLM",
+      "note": "",
+      "seq": 728
+    },
+    {
+      "name": "班贾尔",
+      "region": "EIND",
+      "tag": "BNJ",
+      "note": "",
+      "seq": 729
+    },
+    {
+      "name": "井里汶",
+      "region": "EIND",
+      "tag": "CRB",
+      "note": "",
+      "seq": 730
+    },
+    {
+      "name": "淡目",
+      "region": "EIND",
+      "tag": "DMK",
+      "note": "",
+      "seq": 731
+    },
+    {
+      "name": "古泰",
+      "region": "EIND",
+      "tag": "KUT",
+      "note": "",
+      "seq": 732
+    },
+    {
+      "name": "兰芳",
+      "region": "EIND",
+      "tag": "LFA",
+      "note": "",
+      "seq": 733
+    },
+    {
+      "name": "满者伯夷",
+      "region": "EIND",
+      "tag": "MAJ",
+      "note": "",
+      "seq": 734
+    },
+    {
+      "name": "马塔兰",
+      "region": "EIND",
+      "tag": "MTR",
+      "note": "",
+      "seq": 735
+    },
+    {
+      "name": "三发",
+      "region": "EIND",
+      "tag": "SMB",
+      "note": "",
+      "seq": 736
+    },
+    {
+      "name": "巽他",
+      "region": "EIND",
+      "tag": "SUN",
+      "note": "",
+      "seq": 737
+    },
+    {
+      "name": "安南",
+      "region": "EIND",
+      "tag": "ANN",
+      "note": "",
+      "seq": 738
+    },
+    {
+      "name": "阿瑜陀耶",
+      "region": "EIND",
+      "tag": "AYU",
+      "note": "",
+      "seq": 739
+    },
+    {
+      "name": "占婆",
+      "region": "EIND",
+      "tag": "CHA",
+      "note": "",
+      "seq": 740
+    },
+    {
+      "name": "占巴塞",
+      "region": "EIND",
+      "tag": "CHK",
+      "note": "",
+      "seq": 741
+    },
+    {
+      "name": "大越",
+      "region": "EIND",
+      "tag": "DAI",
+      "note": "",
+      "seq": 742
+    },
+    {
+      "name": "嘉莱",
+      "region": "EIND",
+      "tag": "JAR",
+      "note": "",
+      "seq": 743
+    },
+    {
+      "name": "高棉",
+      "region": "EIND",
+      "tag": "KHM",
+      "note": "",
+      "seq": 744
+    },
+    {
+      "name": "格贺",
+      "region": "EIND",
+      "tag": "KOH",
+      "note": "",
+      "seq": 745
+    },
+    {
+      "name": "兰纳",
+      "region": "EIND",
+      "tag": "LNA",
+      "note": "",
+      "seq": 746
+    },
+    {
+      "name": "琅勃拉邦",
+      "region": "EIND",
+      "tag": "LUA",
+      "note": "",
+      "seq": 747
+    },
+    {
+      "name": "澜沧",
+      "region": "EIND",
+      "tag": "LXA",
+      "note": "",
+      "seq": 748
+    },
+    {
+      "name": "孟潘",
+      "region": "EIND",
+      "tag": "MPH",
+      "note": "",
+      "seq": 749
+    },
+    {
+      "name": "埃地",
+      "region": "EIND",
+      "tag": "RHA",
+      "note": "",
+      "seq": 750
+    },
+    {
+      "name": "暹罗",
+      "region": "EIND",
+      "tag": "SIA",
+      "note": "",
+      "seq": 751
+    },
+    {
+      "name": "素可泰",
+      "region": "EIND",
+      "tag": "SUK",
+      "note": "",
+      "seq": 752
+    },
+    {
+      "name": "东京",
+      "region": "EIND",
+      "tag": "TOK",
+      "note": "",
+      "seq": 753
+    },
+    {
+      "name": "万象",
+      "region": "EIND",
+      "tag": "VIE",
+      "note": "",
+      "seq": 754
+    },
+    {
+      "name": "奥特亚罗瓦",
+      "region": "OCE",
+      "tag": "AOT",
+      "note": "",
+      "seq": 755
+    },
+    {
+      "name": "夏威夷",
+      "region": "OCE",
+      "tag": "HAW",
+      "note": "",
+      "seq": 756
+    },
+    {
+      "name": "考爱",
+      "region": "OCE",
+      "tag": "KAA",
+      "note": "",
+      "seq": 757
+    },
+    {
+      "name": "劳",
+      "region": "OCE",
+      "tag": "LAI",
+      "note": "",
+      "seq": 758
+    },
+    {
+      "name": "雅提阿瓦",
+      "region": "OCE",
+      "tag": "MAA",
+      "note": "",
+      "seq": 759
+    },
+    {
+      "name": "毛伊",
+      "region": "OCE",
+      "tag": "MAU",
+      "note": "",
+      "seq": 760
+    },
+    {
+      "name": "瓦胡",
+      "region": "OCE",
+      "tag": "OAH",
+      "note": "",
+      "seq": 761
+    },
+    {
+      "name": "萨摩亚",
+      "region": "OCE",
+      "tag": "SAM",
+      "note": "",
+      "seq": 762
+    },
+    {
+      "name": "雅提卡胡伍努",
+      "region": "OCE",
+      "tag": "TAK",
+      "note": "",
+      "seq": 763
+    },
+    {
+      "name": "泰努伊",
+      "region": "OCE",
+      "tag": "TAN",
+      "note": "",
+      "seq": 764
+    },
+    {
+      "name": "雅提拉宜努伊",
+      "region": "OCE",
+      "tag": "TEA",
+      "note": "",
+      "seq": 765
+    },
+    {
+      "name": "雅提托阿",
+      "region": "OCE",
+      "tag": "TNK",
+      "note": "",
+      "seq": 766
+    },
+    {
+      "name": "汤加",
+      "region": "OCE",
+      "tag": "TOG",
+      "note": "",
+      "seq": 767
+    },
+    {
+      "name": "雅普希",
+      "region": "OCE",
+      "tag": "TTT",
+      "note": "",
+      "seq": 768
+    },
+    {
+      "name": "维提",
+      "region": "OCE",
+      "tag": "VIL",
+      "note": "",
+      "seq": 769
+    },
+    {
+      "name": "斐济",
+      "region": "OCE",
+      "tag": "VIT",
+      "note": "",
+      "seq": 770
+    },
+    {
+      "name": "瓦努阿",
+      "region": "OCE",
+      "tag": "VNL",
+      "note": "",
+      "seq": 771
+    },
+    {
+      "name": "怀塔哈",
+      "region": "OCE",
+      "tag": "WAI",
+      "note": "",
+      "seq": 772
+    },
+    {
+      "name": "澳大利亚",
+      "region": "OCE",
+      "tag": "AUS",
+      "note": "",
+      "seq": 773
+    },
+    {
+      "name": "阿翁提姆",
+      "region": "OCE",
+      "tag": "AWN",
+      "note": "",
+      "seq": 774
+    },
+    {
+      "name": "约拉",
+      "region": "OCE",
+      "tag": "EOR",
+      "note": "",
+      "seq": 775
+    },
+    {
+      "name": "卡米勒罗伊",
+      "region": "OCE",
+      "tag": "GMI",
+      "note": "",
+      "seq": 776
+    },
+    {
+      "name": "高纳",
+      "region": "OCE",
+      "tag": "KAU",
+      "note": "",
+      "seq": 777
+    },
+    {
+      "name": "库林",
+      "region": "OCE",
+      "tag": "KUL",
+      "note": "",
+      "seq": 778
+    },
+    {
+      "name": "拉拉基亚",
+      "region": "OCE",
+      "tag": "LAR",
+      "note": "",
+      "seq": 779
+    },
+    {
+      "name": "米安金",
+      "region": "OCE",
+      "tag": "MIA",
+      "note": "",
+      "seq": 780
+    },
+    {
+      "name": "马尔加纳",
+      "region": "OCE",
+      "tag": "MLG",
+      "note": "",
+      "seq": 781
+    },
+    {
+      "name": "农雅",
+      "region": "OCE",
+      "tag": "NOO",
+      "note": "",
+      "seq": 782
+    },
+    {
+      "name": "西兰蒂亚",
+      "region": "OCE",
+      "tag": "NZL",
+      "note": "",
+      "seq": 783
+    },
+    {
+      "name": "帕拉瓦",
+      "region": "OCE",
+      "tag": "PLW",
+      "note": "",
+      "seq": 784
+    },
+    {
+      "name": "提维",
+      "region": "OCE",
+      "tag": "TIW",
+      "note": "",
+      "seq": 785
+    },
+    {
+      "name": "伍伦杰里",
+      "region": "OCE",
+      "tag": "WRU",
+      "note": "",
+      "seq": 786
+    },
+    {
+      "name": "亚努瓦",
+      "region": "OCE",
+      "tag": "YNU",
+      "note": "",
+      "seq": 787
+    },
+    {
+      "name": "雍古",
+      "region": "OCE",
+      "tag": "YOL",
+      "note": "",
+      "seq": 788
+    },
+    {
+      "name": "阿西尼博因",
+      "region": "NAME",
+      "tag": "ASI",
+      "note": "",
+      "seq": 789
+    },
+    {
+      "name": "黑脚",
+      "region": "NAME",
+      "tag": "BLA",
+      "note": "",
+      "seq": 790
+    },
+    {
+      "name": "夏延",
+      "region": "NAME",
+      "tag": "CHY",
+      "note": "",
+      "seq": 791
+    },
+    {
+      "name": "纳卡韦",
+      "region": "NAME",
+      "tag": "NAK",
+      "note": "",
+      "seq": 792
+    },
+    {
+      "name": "内希亚乌",
+      "region": "NAME",
+      "tag": "NEH",
+      "note": "",
+      "seq": 793
+    },
+    {
+      "name": "克里",
+      "region": "NAME",
+      "tag": "WCR",
+      "note": "",
+      "seq": 794
+    },
+    {
+      "name": "阿拉斯加",
+      "region": "NAME",
+      "tag": "ALA",
+      "note": "",
+      "seq": 795
+    },
+    {
+      "name": "奇努克",
+      "region": "NAME",
+      "tag": "CNK",
+      "note": "",
+      "seq": 796
+    },
+    {
+      "name": "卡斯卡迪亚",
+      "region": "NAME",
+      "tag": "CSC",
+      "note": "",
+      "seq": 797
+    },
+    {
+      "name": "海达",
+      "region": "NAME",
+      "tag": "HDA",
+      "note": "",
+      "seq": 798
+    },
+    {
+      "name": "萨利什",
+      "region": "NAME",
+      "tag": "SAL",
+      "note": "",
+      "seq": 799
+    },
+    {
+      "name": "肖肖尼",
+      "region": "NAME",
+      "tag": "SHO",
+      "note": "",
+      "seq": 800
+    },
+    {
+      "name": "阿拉帕霍",
+      "region": "NAME",
+      "tag": "ARP",
+      "note": "",
+      "seq": 801
+    },
+    {
+      "name": "科曼奇",
+      "region": "NAME",
+      "tag": "COM",
+      "note": "",
+      "seq": 802
+    },
+    {
+      "name": "基奥瓦",
+      "region": "NAME",
+      "tag": "KIO",
+      "note": "",
+      "seq": 803
+    },
+    {
+      "name": "拉科塔",
+      "region": "NAME",
+      "tag": "LAK",
+      "note": "",
+      "seq": 804
+    },
+    {
+      "name": "波尼",
+      "region": "NAME",
+      "tag": "PAW",
+      "note": "",
+      "seq": 805
+    },
+    {
+      "name": "维奇耶纳",
+      "region": "NAME",
+      "tag": "WCY",
+      "note": "",
+      "seq": 806
+    },
+    {
+      "name": "阿比卡",
+      "region": "NAME",
+      "tag": "ABI",
+      "note": "",
+      "seq": 807
+    },
+    {
+      "name": "阿尼尔科",
+      "region": "NAME",
+      "tag": "ANL",
+      "note": "",
+      "seq": 808
+    },
+    {
+      "name": "阿塔哈奇",
+      "region": "NAME",
+      "tag": "ATA",
+      "note": "",
+      "seq": 809
+    },
+    {
+      "name": "卡多",
+      "region": "NAME",
+      "tag": "CAD",
+      "note": "",
+      "seq": 810
+    },
+    {
+      "name": "卡斯基",
+      "region": "NAME",
+      "tag": "CAQ",
+      "note": "",
+      "seq": 811
+    },
+    {
+      "name": "奇斯卡",
+      "region": "NAME",
+      "tag": "CCA",
+      "note": "",
+      "seq": 812
+    },
+    {
+      "name": "奇克索",
+      "region": "NAME",
+      "tag": "CHI",
+      "note": "",
+      "seq": 813
+    },
+    {
+      "name": "乔克托",
+      "region": "NAME",
+      "tag": "CHO",
+      "note": "",
+      "seq": 814
+    },
+    {
+      "name": "考维塔",
+      "region": "NAME",
+      "tag": "COW",
+      "note": "",
+      "seq": 815
+    },
+    {
+      "name": "克里克",
+      "region": "NAME",
+      "tag": "CRE",
+      "note": "",
+      "seq": 816
+    },
+    {
+      "name": "佛罗里达",
+      "region": "NAME",
+      "tag": "FLO",
+      "note": "",
+      "seq": 817
+    },
+    {
+      "name": "哈萨韦凯拉",
+      "region": "NAME",
+      "tag": "HWK",
+      "note": "",
+      "seq": 818
+    },
+    {
+      "name": "基斯波科",
+      "region": "NAME",
+      "tag": "KSP",
+      "note": "",
+      "seq": 819
+    },
+    {
+      "name": "路易斯安那",
+      "region": "NAME",
+      "tag": "LOU",
+      "note": "",
+      "seq": 820
+    },
+    {
+      "name": "纳基托什",
+      "region": "NAME",
+      "tag": "NTC",
+      "note": "",
+      "seq": 821
+    },
+    {
+      "name": "纳奇兹",
+      "region": "NAME",
+      "tag": "NTZ",
+      "note": "",
+      "seq": 822
+    },
+    {
+      "name": "帕卡哈",
+      "region": "NAME",
+      "tag": "PCH",
+      "note": "",
+      "seq": 823
+    },
+    {
+      "name": "基斯基斯",
+      "region": "NAME",
+      "tag": "QUI",
+      "note": "",
+      "seq": 824
+    },
+    {
+      "name": "奥尔塔马霍",
+      "region": "NAME",
+      "tag": "ALT",
+      "note": "",
+      "seq": 825
+    },
+    {
+      "name": "切罗基",
+      "region": "NAME",
+      "tag": "CHE",
+      "note": "",
+      "seq": 826
+    },
+    {
+      "name": "奇亚哈",
+      "region": "NAME",
+      "tag": "CIA",
+      "note": "",
+      "seq": 827
+    },
+    {
+      "name": "科菲塔切基",
+      "region": "NAME",
+      "tag": "COF",
+      "note": "",
+      "seq": 828
+    },
+    {
+      "name": "库萨",
+      "region": "NAME",
+      "tag": "COO",
+      "note": "",
+      "seq": 829
+    },
+    {
+      "name": "埃托瓦",
+      "region": "NAME",
+      "tag": "ETO",
+      "note": "",
+      "seq": 830
+    },
+    {
+      "name": "伊奇西",
+      "region": "NAME",
+      "tag": "ICH",
+      "note": "",
+      "seq": 831
+    },
+    {
+      "name": "乔阿拉",
+      "region": "NAME",
+      "tag": "JOA",
+      "note": "",
+      "seq": 832
+    },
+    {
+      "name": "卡西塔",
+      "region": "NAME",
+      "tag": "KSI",
+      "note": "",
+      "seq": 833
+    },
+    {
+      "name": "波瓦坦",
+      "region": "NAME",
+      "tag": "POW",
+      "note": "",
+      "seq": 834
+    },
+    {
+      "name": "萨塔波",
+      "region": "NAME",
+      "tag": "SAT",
+      "note": "",
+      "seq": 835
+    },
+    {
+      "name": "塔斯卡罗拉",
+      "region": "NAME",
+      "tag": "TSC",
+      "note": "",
+      "seq": 836
+    },
+    {
+      "name": "阿布纳基",
+      "region": "NAME",
+      "tag": "ABE",
+      "note": "",
+      "seq": 837
+    },
+    {
+      "name": "卡尤加",
+      "region": "NAME",
+      "tag": "CAY",
+      "note": "",
+      "seq": 838
+    },
+    {
+      "name": "伊利",
+      "region": "NAME",
+      "tag": "ERI",
+      "note": "",
+      "seq": 839
+    },
+    {
+      "name": "易洛魁",
+      "region": "NAME",
+      "tag": "IRO",
+      "note": "",
+      "seq": 840
+    },
+    {
+      "name": "莱纳佩",
+      "region": "NAME",
+      "tag": "LEN",
+      "note": "",
+      "seq": 841
+    },
+    {
+      "name": "莫希干",
+      "region": "NAME",
+      "tag": "MAH",
+      "note": "",
+      "seq": 842
+    },
+    {
+      "name": "莫霍克",
+      "region": "NAME",
+      "tag": "MOH",
+      "note": "",
+      "seq": 843
+    },
+    {
+      "name": "奥奈达",
+      "region": "NAME",
+      "tag": "ONE",
+      "note": "",
+      "seq": 844
+    },
+    {
+      "name": "奥农多加",
+      "region": "NAME",
+      "tag": "ONO",
+      "note": "",
+      "seq": 845
+    },
+    {
+      "name": "佩诺布斯科特",
+      "region": "NAME",
+      "tag": "PEN",
+      "note": "",
+      "seq": 846
+    },
+    {
+      "name": "佩科特",
+      "region": "NAME",
+      "tag": "PEQ",
+      "note": "",
+      "seq": 847
+    },
+    {
+      "name": "塞尼卡",
+      "region": "NAME",
+      "tag": "SEN",
+      "note": "",
+      "seq": 848
+    },
+    {
+      "name": "萨斯奎汉诺克",
+      "region": "NAME",
+      "tag": "SUS",
+      "note": "",
+      "seq": 849
+    },
+    {
+      "name": "美利坚",
+      "region": "NAME",
+      "tag": "USA",
+      "note": "",
+      "seq": 850
+    },
+    {
+      "name": "佛蒙特",
+      "region": "NAME",
+      "tag": "VRM",
+      "note": "",
+      "seq": 851
+    },
+    {
+      "name": "万帕诺亚格",
+      "region": "NAME",
+      "tag": "WAM",
+      "note": "",
+      "seq": 852
+    },
+    {
+      "name": "文罗",
+      "region": "NAME",
+      "tag": "WEN",
+      "note": "",
+      "seq": 853
+    },
+    {
+      "name": "卡霍基亚",
+      "region": "NAME",
+      "tag": "CAO",
+      "note": "",
+      "seq": 854
+    },
+    {
+      "name": "查拉高萨",
+      "region": "NAME",
+      "tag": "CLG",
+      "note": "",
+      "seq": 855
+    },
+    {
+      "name": "福克斯",
+      "region": "NAME",
+      "tag": "FOX",
+      "note": "",
+      "seq": 856
+    },
+    {
+      "name": "伊利诺伊",
+      "region": "NAME",
+      "tag": "ILI",
+      "note": "",
+      "seq": 857
+    },
+    {
+      "name": "伊利尼维克",
+      "region": "NAME",
+      "tag": "ILL",
+      "note": "",
+      "seq": 858
+    },
+    {
+      "name": "卡斯卡斯基亚",
+      "region": "NAME",
+      "tag": "KSK",
+      "note": "",
+      "seq": 859
+    },
+    {
+      "name": "迈阿密",
+      "region": "NAME",
+      "tag": "MMI",
+      "note": "",
+      "seq": 860
+    },
+    {
+      "name": "奥内奥塔",
+      "region": "NAME",
+      "tag": "OEO",
+      "note": "",
+      "seq": 861
+    },
+    {
+      "name": "奥吉布瓦",
+      "region": "NAME",
+      "tag": "OJI",
+      "note": "",
+      "seq": 862
+    },
+    {
+      "name": "欧塞奇",
+      "region": "NAME",
+      "tag": "OSA",
+      "note": "",
+      "seq": 863
+    },
+    {
+      "name": "皮奥里亚",
+      "region": "NAME",
+      "tag": "PEO",
+      "note": "",
+      "seq": 864
+    },
+    {
+      "name": "波塔瓦托米",
+      "region": "NAME",
+      "tag": "POT",
+      "note": "",
+      "seq": 865
+    },
+    {
+      "name": "肖尼",
+      "region": "NAME",
+      "tag": "SHA",
+      "note": "",
+      "seq": 866
+    },
+    {
+      "name": "苏族",
+      "region": "NAME",
+      "tag": "SIO",
+      "note": "",
+      "seq": 867
+    },
+    {
+      "name": "阿蒂格内农纳哈克",
+      "region": "NAME",
+      "tag": "AGG",
+      "note": "",
+      "seq": 868
+    },
+    {
+      "name": "阿尔冈昆",
+      "region": "NAME",
+      "tag": "AGQ",
+      "note": "",
+      "seq": 869
+    },
+    {
+      "name": "阿伦达罗嫩",
+      "region": "NAME",
+      "tag": "ARN",
+      "note": "",
+      "seq": 870
+    },
+    {
+      "name": "阿蒂格纳万坦",
+      "region": "NAME",
+      "tag": "ATT",
+      "note": "",
+      "seq": 871
+    },
+    {
+      "name": "阿蒂万达伦",
+      "region": "NAME",
+      "tag": "ATW",
+      "note": "",
+      "seq": 872
+    },
+    {
+      "name": "加拿大",
+      "region": "NAME",
+      "tag": "CAN",
+      "note": "",
+      "seq": 873
+    },
+    {
+      "name": "休伦",
+      "region": "NAME",
+      "tag": "HUR",
+      "note": "",
+      "seq": 874
+    },
+    {
+      "name": "因努",
+      "region": "NAME",
+      "tag": "INN",
+      "note": "",
+      "seq": 875
+    },
+    {
+      "name": "米克马克",
+      "region": "NAME",
+      "tag": "MIK",
+      "note": "",
+      "seq": 876
+    },
+    {
+      "name": "马勒西特",
+      "region": "NAME",
+      "tag": "MLS",
+      "note": "",
+      "seq": 877
+    },
+    {
+      "name": "米西索加",
+      "region": "NAME",
+      "tag": "MSG",
+      "note": "",
+      "seq": 878
+    },
+    {
+      "name": "奥谢阿加",
+      "region": "NAME",
+      "tag": "OSH",
+      "note": "",
+      "seq": 879
+    },
+    {
+      "name": "渥太华",
+      "region": "NAME",
+      "tag": "OTT",
+      "note": "",
+      "seq": 880
+    },
+    {
+      "name": "魁北克",
+      "region": "NAME",
+      "tag": "QUE",
+      "note": "",
+      "seq": 881
+    },
+    {
+      "name": "斯塔达科纳",
+      "region": "NAME",
+      "tag": "STA",
+      "note": "",
+      "seq": 882
+    },
+    {
+      "name": "塔洪塔恩拉特",
+      "region": "NAME",
+      "tag": "TAH",
+      "note": "",
+      "seq": 883
+    },
+    {
+      "name": "提奥嫩塔特",
+      "region": "NAME",
+      "tag": "TIO",
+      "note": "",
+      "seq": 884
+    },
+    {
+      "name": "中美洲联邦",
+      "region": "SAME",
+      "tag": "CAM",
+      "note": "",
+      "seq": 885
+    },
+    {
+      "name": "乔尔蒂",
+      "region": "SAME",
+      "tag": "CHT",
+      "note": "",
+      "seq": 886
+    },
+    {
+      "name": "坎佩奇",
+      "region": "SAME",
+      "tag": "CNP",
+      "note": "",
+      "seq": 887
+    },
+    {
+      "name": "科科姆",
+      "region": "SAME",
+      "tag": "COC",
+      "note": "",
+      "seq": 888
+    },
+    {
+      "name": "查克特马尔",
+      "region": "SAME",
+      "tag": "CTM",
+      "note": "",
+      "seq": 889
+    },
+    {
+      "name": "伊察",
+      "region": "SAME",
+      "tag": "ITZ",
+      "note": "",
+      "seq": 890
+    },
+    {
+      "name": "卡克奇克尔",
+      "region": "SAME",
+      "tag": "KAQ",
+      "note": "",
+      "seq": 891
+    },
+    {
+      "name": "基切",
+      "region": "SAME",
+      "tag": "KIC",
+      "note": "",
+      "seq": 892
+    },
+    {
+      "name": "乔齐尔",
+      "region": "SAME",
+      "tag": "LAC",
+      "note": "",
+      "seq": 893
+    },
+    {
+      "name": "玛雅",
+      "region": "SAME",
+      "tag": "MAY",
+      "note": "",
+      "seq": 894
+    },
+    {
+      "name": "米斯基托",
+      "region": "SAME",
+      "tag": "MIS",
+      "note": "",
+      "seq": 895
+    },
+    {
+      "name": "休",
+      "region": "SAME",
+      "tag": "XIU",
+      "note": "",
+      "seq": 896
+    },
+    {
+      "name": "约科坦",
+      "region": "SAME",
+      "tag": "YOK",
+      "note": "",
+      "seq": 897
+    },
+    {
+      "name": "阿兹特克",
+      "region": "SAME",
+      "tag": "AZT",
+      "note": "",
+      "seq": 898
+    },
+    {
+      "name": "奇奇梅克",
+      "region": "SAME",
+      "tag": "CCM",
+      "note": "",
+      "seq": 899
+    },
+    {
+      "name": "科利马",
+      "region": "SAME",
+      "tag": "CLM",
+      "note": "",
+      "seq": 900
+    },
+    {
+      "name": "科伊斯特拉瓦卡",
+      "region": "SAME",
+      "tag": "COI",
+      "note": "",
+      "seq": 901
+    },
+    {
+      "name": "瓜马尔",
+      "region": "SAME",
+      "tag": "GAM",
+      "note": "",
+      "seq": 902
+    },
+    {
+      "name": "瓦斯特克",
+      "region": "SAME",
+      "tag": "HST",
+      "note": "",
+      "seq": 903
+    },
+    {
+      "name": "马特拉钦卡",
+      "region": "SAME",
+      "tag": "MAT",
+      "note": "",
+      "seq": 904
+    },
+    {
+      "name": "墨西哥",
+      "region": "SAME",
+      "tag": "MEX",
+      "note": "",
+      "seq": 905
+    },
+    {
+      "name": "米斯特克",
+      "region": "SAME",
+      "tag": "MIX",
+      "note": "",
+      "seq": 906
+    },
+    {
+      "name": "奥托米",
+      "region": "SAME",
+      "tag": "OTO",
+      "note": "",
+      "seq": 907
+    },
+    {
+      "name": "普雷佩查",
+      "region": "SAME",
+      "tag": "TAR",
+      "note": "",
+      "seq": 908
+    },
+    {
+      "name": "特奥蒂特兰",
+      "region": "SAME",
+      "tag": "TEO",
+      "note": "",
+      "seq": 909
+    },
+    {
+      "name": "特拉帕内克",
+      "region": "SAME",
+      "tag": "TLA",
+      "note": "",
+      "seq": 910
+    },
+    {
+      "name": "特拉斯卡拉",
+      "region": "SAME",
+      "tag": "TLX",
+      "note": "",
+      "seq": 911
+    },
+    {
+      "name": "托纳拉",
+      "region": "SAME",
+      "tag": "TON",
+      "note": "",
+      "seq": 912
+    },
+    {
+      "name": "托托纳克",
+      "region": "SAME",
+      "tag": "TOT",
+      "note": "",
+      "seq": 913
+    },
+    {
+      "name": "哈利斯科",
+      "region": "SAME",
+      "tag": "XAL",
+      "note": "",
+      "seq": 914
+    },
+    {
+      "name": "萨波特克",
+      "region": "SAME",
+      "tag": "ZAP",
+      "note": "",
+      "seq": 915
+    },
+    {
+      "name": "古巴",
+      "region": "SAME",
+      "tag": "CUB",
+      "note": "",
+      "seq": 916
+    },
+    {
+      "name": "海地",
+      "region": "SAME",
+      "tag": "HAT",
+      "note": "",
+      "seq": 917
+    },
+    {
+      "name": "新普罗维登斯",
+      "region": "SAME",
+      "tag": "NSS",
+      "note": "",
+      "seq": 918
+    },
+    {
+      "name": "皇家港",
+      "region": "SAME",
+      "tag": "PRY",
+      "note": "",
+      "seq": 919
+    },
+    {
+      "name": "托尔图加",
+      "region": "SAME",
+      "tag": "TOR",
+      "note": "",
+      "seq": 920
+    },
+    {
+      "name": "西印度",
+      "region": "SAME",
+      "tag": "WSI",
+      "note": "",
+      "seq": 921
+    },
+    {
+      "name": "哈西奈",
+      "region": "SAME",
+      "tag": "HNI",
+      "note": "",
+      "seq": 922
+    },
+    {
+      "name": "利潘",
+      "region": "SAME",
+      "tag": "LIP",
+      "note": "",
+      "seq": 923
+    },
+    {
+      "name": "梅斯卡莱罗",
+      "region": "SAME",
+      "tag": "MSC",
+      "note": "",
+      "seq": 924
+    },
+    {
+      "name": "得克萨斯",
+      "region": "SAME",
+      "tag": "TEX",
+      "note": "",
+      "seq": 925
+    },
+    {
+      "name": "威奇托",
+      "region": "SAME",
+      "tag": "WIC",
+      "note": "",
+      "seq": 926
+    },
+    {
+      "name": "阿科马",
+      "region": "SAME",
+      "tag": "ACO",
+      "note": "",
+      "seq": 927
+    },
+    {
+      "name": "阿帕奇",
+      "region": "SAME",
+      "tag": "APA",
+      "note": "",
+      "seq": 928
+    },
+    {
+      "name": "加利福尼亚",
+      "region": "SAME",
+      "tag": "CAL",
+      "note": "",
+      "seq": 929
+    },
+    {
+      "name": "伊斯莱塔",
+      "region": "SAME",
+      "tag": "ISL",
+      "note": "",
+      "seq": 930
+    },
+    {
+      "name": "齐亚",
+      "region": "SAME",
+      "tag": "KER",
+      "note": "",
+      "seq": 931
+    },
+    {
+      "name": "纳瓦霍",
+      "region": "SAME",
+      "tag": "NAH",
+      "note": "",
+      "seq": 932
+    },
+    {
+      "name": "奥凯奥温盖",
+      "region": "SAME",
+      "tag": "OHK",
+      "note": "",
+      "seq": 933
+    },
+    {
+      "name": "皮马",
+      "region": "SAME",
+      "tag": "PIM",
+      "note": "",
+      "seq": 934
+    },
+    {
+      "name": "普韦布洛",
+      "region": "SAME",
+      "tag": "PUE",
+      "note": "",
+      "seq": 935
+    },
+    {
+      "name": "索诺拉",
+      "region": "SAME",
+      "tag": "SNA",
+      "note": "",
+      "seq": 936
+    },
+    {
+      "name": "亚基",
+      "region": "SAME",
+      "tag": "YAQ",
+      "note": "",
+      "seq": 937
+    },
+    {
+      "name": "约库特",
+      "region": "SAME",
+      "tag": "YKT",
+      "note": "",
+      "seq": 938
+    },
+    {
+      "name": "祖尼",
+      "region": "SAME",
+      "tag": "ZNI",
+      "note": "",
+      "seq": 939
+    },
+    {
+      "name": "巴西",
+      "region": "SAME",
+      "tag": "BRZ",
+      "note": "",
+      "seq": 940
+    },
+    {
+      "name": "瓜拉尼",
+      "region": "SAME",
+      "tag": "GUA",
+      "note": "",
+      "seq": 941
+    },
+    {
+      "name": "波蒂瓜拉",
+      "region": "SAME",
+      "tag": "PTG",
+      "note": "",
+      "seq": 942
+    },
+    {
+      "name": "图皮南巴",
+      "region": "SAME",
+      "tag": "TPA",
+      "note": "",
+      "seq": 943
+    },
+    {
+      "name": "图皮尼金",
+      "region": "SAME",
+      "tag": "TPQ",
+      "note": "",
+      "seq": 944
+    },
+    {
+      "name": "塔普亚",
+      "region": "SAME",
+      "tag": "TUA",
+      "note": "",
+      "seq": 945
+    },
+    {
+      "name": "阿拉瓦克",
+      "region": "SAME",
+      "tag": "ARW",
+      "note": "",
+      "seq": 946
+    },
+    {
+      "name": "加勒比",
+      "region": "SAME",
+      "tag": "CAB",
+      "note": "",
+      "seq": 947
+    },
+    {
+      "name": "哥伦比亚",
+      "region": "SAME",
+      "tag": "COL",
+      "note": "",
+      "seq": 948
+    },
+    {
+      "name": "穆伊斯卡",
+      "region": "SAME",
+      "tag": "MCA",
+      "note": "",
+      "seq": 949
+    },
+    {
+      "name": "泰罗纳",
+      "region": "SAME",
+      "tag": "TAI",
+      "note": "",
+      "seq": 950
+    },
+    {
+      "name": "委内瑞拉",
+      "region": "SAME",
+      "tag": "VNZ",
+      "note": "",
+      "seq": 951
+    },
+    {
+      "name": "奇穆",
+      "region": "SAME",
+      "tag": "CHM",
+      "note": "",
+      "seq": 952
+    },
+    {
+      "name": "卡哈马卡",
+      "region": "SAME",
+      "tag": "CJA",
+      "note": "",
+      "seq": 953
+    },
+    {
+      "name": "科拉",
+      "region": "SAME",
+      "tag": "CLA",
+      "note": "",
+      "seq": 954
+    },
+    {
+      "name": "库斯科",
+      "region": "SAME",
+      "tag": "CSU",
+      "note": "",
+      "seq": 955
+    },
+    {
+      "name": "查查波亚",
+      "region": "SAME",
+      "tag": "CYA",
+      "note": "",
+      "seq": 956
+    },
+    {
+      "name": "胡伊拉",
+      "region": "SAME",
+      "tag": "HJA",
+      "note": "",
+      "seq": 957
+    },
+    {
+      "name": "依其马",
+      "region": "SAME",
+      "tag": "ICM",
+      "note": "",
+      "seq": 958
+    },
+    {
+      "name": "印加",
+      "region": "SAME",
+      "tag": "INC",
+      "note": "",
+      "seq": 959
+    },
+    {
+      "name": "帕卡赫斯",
+      "region": "SAME",
+      "tag": "PCJ",
+      "note": "",
+      "seq": 960
+    },
+    {
+      "name": "秘鲁",
+      "region": "SAME",
+      "tag": "PEU",
+      "note": "",
+      "seq": 961
+    },
+    {
+      "name": "基多",
+      "region": "SAME",
+      "tag": "QTO",
+      "note": "",
+      "seq": 962
+    },
+    {
+      "name": "万卡",
+      "region": "SAME",
+      "tag": "WKA",
+      "note": "",
+      "seq": 963
+    },
+    {
+      "name": "查尔查奇",
+      "region": "SAME",
+      "tag": "CCQ",
+      "note": "",
+      "seq": 964
+    },
+    {
+      "name": "查卡",
+      "region": "SAME",
+      "tag": "CRA",
+      "note": "",
+      "seq": 965
+    },
+    {
+      "name": "巴拉圭",
+      "region": "SAME",
+      "tag": "PRG",
+      "note": "",
+      "seq": 966
+    },
+    {
+      "name": "智利",
+      "region": "SAME",
+      "tag": "CHL",
+      "note": "",
+      "seq": 967
+    },
+    {
+      "name": "查鲁亚",
+      "region": "SAME",
+      "tag": "CUA",
+      "note": "",
+      "seq": 968
+    },
+    {
+      "name": "拉普拉塔",
+      "region": "SAME",
+      "tag": "LAP",
+      "note": "",
+      "seq": 969
+    },
+    {
+      "name": "马普切",
+      "region": "SAME",
+      "tag": "MPC",
+      "note": "",
+      "seq": 970
+    }
+  ]
+}

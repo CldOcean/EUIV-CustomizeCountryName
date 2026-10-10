@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>自定义国名生成器</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">名</div>
+    <div class="brand-text">
+      <div class="brand-title">自定义国名生成器</div>
+      <div class="brand-sub">
+        <span id="projName">—</span>
+        <span class="dot">·</span>
+        <span id="projPath" class="mono muted">—</span>
+        <span id="dirtyChip" class="chip chip-warn hidden">未保存</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="topbar-actions">
+    <button class="btn" id="btnResetPaths" title="把输出目录拉回本机工具目录下的「生成的mod」">重置路径</button>
+    <button class="btn" id="btnOpen">打开工程</button>
+    <button class="btn" id="btnNew">新建工程</button>
+    <button class="btn btn-primary" id="btnSave">保存 <kbd>Ctrl+S</kbd></button>
+    <button class="btn" id="btnSaveAs">另存为</button>
+    <div class="sep"></div>
+    <button class="btn btn-icon" id="btnTheme" title="切换深浅主题">◐</button>
+    <button class="btn" id="btnQuit" title="退出程序">退出</button>
+  </div>
+</header>
+
+<div class="layout">
+
+  <nav class="sidebar">
+    <div class="nav-group" id="navGroup">
+      <button class="nav-item is-active" data-view="names">
+        <span class="nav-label">国名</span><span class="nav-badge" id="badgeNames">0</span>
+      </button>
+      <button class="nav-item" data-view="prefix">
+        <span class="nav-label">前缀</span><span class="nav-badge" id="badgePre">0</span>
+      </button>
+      <button class="nav-item" data-view="suffix">
+        <span class="nav-label">后缀</span><span class="nav-badge" id="badgeSuf">0</span>
+      </button>
+      <button class="nav-item" data-view="regions">
+        <span class="nav-label">区域</span><span class="nav-badge" id="badgeReg">0</span>
+      </button>
+      <button class="nav-item" data-view="build">
+        <span class="nav-label">生成</span>
+      </button>
+    </div>
+
+    <div class="side-card">
+      <div class="side-card-title">规模</div>
+      <div class="mini-stat"><span>派生组合</span><b id="msCombos">0</b></div>
+      <div class="mini-stat"><span>事件数</span><b id="msEvents">0</b></div>
+      <div class="mini-stat"><span>总页数</span><b id="msPages">0</b></div>
+      <div class="mini-stat"><span>每页选项</span><b id="msMax">0</b></div>
+    </div>
+    <div class="side-foot">
+      <span id="pinyinTip" class="muted"></span>
+    </div>
+  </nav>
+
+  <main class="content" id="content">
+
+    <!-- ============================================ 国名 -->
+    <section class="view is-active" data-view="names">
+      <div class="view-head">
+        <div>
+          <h1>国名</h1>
+          <p class="sub">每个国名属于一个区域。区域内重名在游戏里会出现两个一模一样的选项。</p>
+        </div>
+        <div class="view-head-actions">
+          <button class="btn btn-primary" data-act="name-add">添加国名</button>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="field-inline">
+          <input id="fNameQ" class="input" type="search" placeholder="搜索国名 / TAG / 备注…" autocomplete="off">
+        </div>
+        <select id="fNameRegion" class="input select"></select>
+        <button class="btn btn-toggle" id="btnFollow" aria-pressed="false"
+                title="自动定位：关（点一下开启）">自动定位</button>
+        <span class="grow"></span>
+        <button class="btn" data-act="name-edit">编辑</button>
+        <button class="btn btn-danger" data-act="name-del">删除</button>
+        <button class="btn" data-act="name-batch">批量删除</button>
+        <div class="btn-sep"></div>
+        <button class="btn" data-act="name-up" title="上移">↑</button>
+        <button class="btn" data-act="name-down" title="下移">↓</button>
+        <select id="fNameSort" class="input select select-sm"></select>
+        <button class="btn" data-act="name-import" title="从字库表导入">导入字库</button>
+      </div>
+
+      <div class="table-wrap">
+        <table class="table" id="tblNames">
+          <thead>
+            <tr>
+              <th class="col-check"><input type="checkbox" id="chkAllNames"></th>
+              <th class="col-idx">#</th>
+              <th class="col-region">区域</th>
+              <th class="col-name">国名</th>
+              <th class="col-py">拼音</th>
+              <th class="col-tag">TAG</th>
+              <th class="col-note">备注</th>
+            </tr>
+          </thead>
+          <tbody id="bodyNames"></tbody>
+        </table>
+        <div class="empty" id="emptyNames" hidden>没有匹配的国名。</div>
+      </div>
+
+      <div class="table-foot">
+        <span class="muted" id="nameCount">—</span>
+        <span class="grow"></span>
+        <div class="pager" id="pagerNames">
+          <button class="btn btn-sm" data-page="first">«</button>
+          <button class="btn btn-sm" data-page="prev">‹</button>
+          <span class="pager-info" id="pagerInfo">1 / 1</span>
+          <button class="btn btn-sm" data-page="next">›</button>
+          <button class="btn btn-sm" data-page="last">»</button>
+          <select id="pageSize" class="input select select-sm">
+            <option>50</option><option>100</option><option>200</option><option>500</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ 前缀 / 后缀 -->
+    <section class="view" data-view="prefix"></section>
+    <section class="view" data-view="suffix"></section>
+
+    <!-- ============================================ 区域 -->
+    <section class="view" data-view="regions">
+      <div class="view-head">
+        <div>
+          <h1>区域</h1>
+          <p class="sub">区域决定国名在游戏里出现在哪一页。标识会写进事件 id 与本地化 key，建好后不让改。</p>
+        </div>
+        <div class="view-head-actions">
+          <button class="btn btn-primary" data-act="region-add">添加区域</button>
+        </div>
+      </div>
+      <div class="toolbar">
+        <span class="grow"></span>
+        <button class="btn" data-act="region-edit">编辑名称</button>
+        <button class="btn btn-danger" data-act="region-del">删除</button>
+        <div class="btn-sep"></div>
+        <button class="btn" data-act="region-up" title="上移">↑</button>
+        <button class="btn" data-act="region-down" title="下移">↓</button>
+      </div>
+      <div class="table-wrap">
+        <table class="table" id="tblRegions">
+          <thead>
+            <tr>
+              <th class="col-idx">#</th>
+              <th class="col-tag">标识</th>
+              <th class="col-name">显示名称</th>
+              <th class="col-note">国名数</th>
+            </tr>
+          </thead>
+          <tbody id="bodyRegions"></tbody>
+        </table>
+      </div>
+      <div class="table-foot"><span class="muted" id="regionCount">—</span></div>
+    </section>
+
+    <!-- ============================================ 生成 -->
+    <section class="view" data-view="build">
+      <div class="view-head">
+        <div>
+          <h1>生成模组</h1>
+          <p class="sub">把当前字库翻译成 EU4 的决议 / 事件 / 本地化文件。</p>
+        </div>
+        <div class="view-head-actions">
+          <button class="btn btn-primary" id="btnBuild">生成模组</button>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">输出</div>
+          <label class="form-row">
+            <span>输出目录（选择组词自定义国名模组文件夹）</span>
+            <div class="row">
+              <input id="optOut" class="input" type="text">
+              <button class="btn" id="btnPickOut">浏览</button>
+            </div>
+          </label>
+          <p class="hint">填相对路径的话按程序目录算（搬家也不失效），默认：生成的mod</p>
+          <label class="form-row"><span>模组名</span><input id="optMod" class="input"></label>
+          <label class="form-row"><span>命名空间</span><input id="optNs" class="input"></label>
+          <label class="form-row">
+            <span>每页选项数</span>
+            <input id="optPage" class="input input-sm" type="number" min="1" max="30">
+          </label>
+          <p class="hint">上限 30：原版单个事件最多 33 个 option，还要留「下一页 / 上一页 / 返回」。</p>
+        </div>
+
+        <div class="card">
+          <div class="card-title">规模预览</div>
+          <div class="stat-grid">
+            <div class="stat"><b id="stNames">0</b><span>国名</span></div>
+            <div class="stat"><b id="stRegions">0</b><span>区域</span></div>
+            <div class="stat"><b id="stCombos">0</b><span>派生组合</span></div>
+            <div class="stat"><b id="stPages">0</b><span>总页数</span></div>
+            <div class="stat"><b id="stEvents">0</b><span>事件数</span></div>
+            <div class="stat"><b id="stUnit">0</b><span>每名派生</span></div>
+          </div>
+          <div id="issues" class="issues"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">日志</div>
+        <pre class="log" id="buildLog">尚未生成。</pre>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<div class="toasts" id="toasts"></div>
+<div class="modal-root" id="modalRoot" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>

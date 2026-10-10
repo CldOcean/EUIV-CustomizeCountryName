@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>组词自定义国名工具 · 用户手册</title>
+<style>
+:root{
+  --bg:#f7f9fb; --panel:#ffffff; --ink:#1d2733; --ink-dim:#5b6b7c;
+  --line:#dfe6ee; --navy:#172a40; --blue:#2368a2; --blue-soft:#eaf2fb;
+  --code-bg:#eef2f7; --warn:#8a4b00;
+}
+html[data-theme="dark"]{
+  --bg:#131a22; --panel:#1b2430; --ink:#e3eaf2; --ink-dim:#9db0c4;
+  --line:#2c3947; --navy:#0e1620; --blue:#5ea8e8; --blue-soft:#1e2c3c;
+  --code-bg:#0f171f; --warn:#e2a758;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+  -webkit-font-smoothing:antialiased}
+a{color:var(--blue)}
+code{background:var(--code-bg);padding:.12em .38em;border-radius:4px;
+  font:13.5px/1.6 Consolas,"Cascadia Mono",monospace}
+pre{background:var(--code-bg);padding:12px 14px;border-radius:8px;overflow:auto}
+
+/* 布局：宽屏左侧目录，窄屏目录挪到正文上方 */
+.wrap{display:flex;gap:28px;max-width:1240px;margin:0 auto;padding:0 24px 80px}
+#toc{position:sticky;top:0;align-self:flex-start;width:230px;flex:none;
+  max-height:100vh;overflow:auto;padding:26px 0}
+#toc .t{font-weight:700;color:var(--ink-dim);font-size:12px;letter-spacing:.12em;
+  text-transform:uppercase;margin-bottom:10px}
+#toc a{display:block;padding:5px 10px;border-radius:6px;color:var(--ink-dim);
+  text-decoration:none;font-size:14px;border-left:2px solid transparent}
+#toc a:hover{background:var(--blue-soft)}
+#toc a.on{color:var(--blue);border-left-color:var(--blue);background:var(--blue-soft)}
+#toc a.lv3{padding-left:22px;font-size:13.5px}
+main{flex:1;min-width:0;padding-bottom:60px}
+@media (max-width:980px){
+  .wrap{display:block;max-width:840px}
+  #toc{position:static;width:auto;max-height:none;padding:18px 0 0}
+  #toc a{display:inline-block;margin:0 4px 4px 0;border:1px solid var(--line)}
+}
+
+h1{font-size:27px;line-height:1.35;margin:26px 0 14px;padding-bottom:14px;
+  border-bottom:2px solid var(--line)}
+h2{font-size:21px;margin:34px 0 12px;padding-left:11px;
+  border-left:4px solid var(--blue)}
+h3{font-size:17px;margin:24px 0 8px;color:var(--navy)}
+h3[id]{scroll-margin-top:16px}
+html[data-theme="dark"] h3{color:var(--blue)}
+p{margin:11px 0}
+ul,ol{padding-left:1.5em;margin:11px 0}
+li{margin:5px 0}
+hr{border:0;border-top:1px solid var(--line);margin:30px 0}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:15px}
+th,td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top}
+th{background:var(--blue-soft);color:var(--navy)}
+html[data-theme="dark"] th{color:var(--blue)}
+figure{margin:18px 0}
+figure img{display:block;width:100%;border:1px solid var(--line);
+  border-radius:9px;background:var(--panel)}
+figcaption{margin-top:7px;font-size:13px;color:var(--ink-dim)}
+blockquote{margin:14px 0;padding:2px 0 2px 14px;color:var(--ink-dim);
+  border-left:3px solid var(--blue)}
+
+/* 顶栏按钮 */
+#bar{position:fixed;right:16px;top:14px;display:flex;gap:8px;z-index:9}
+#bar button{background:var(--panel);color:var(--ink);border:1px solid var(--line);
+  border-radius:8px;padding:6px 11px;font-size:13px;cursor:pointer;
+  box-shadow:0 1px 4px rgba(0,0,0,.08)}
+#bar button:hover{border-color:var(--blue);color:var(--blue)}
+
+@media print{
+  #bar,#toc{display:none}
+  .wrap{display:block;max-width:none;padding:0}
+  body{background:#fff}
+  figure{page-break-inside:avoid}
+  h2{page-break-after:avoid}
+}
+</style>
+</head>
+<body>
+<div id="bar">
+  <button id="btnTheme" type="button">◐ 深色</button>
+  <button id="btnTop" type="button">↑ 顶部</button>
+</div>
+<div class="wrap">
+  <nav id="toc"><div class="t">目录</div><a class="lv2" href="#1-认识窗口">1. 认识窗口</a>
+    <a class="lv3" href="#深色主题">深色主题</a>
+    <a class="lv2" href="#2-国名页">2. 国名页</a>
+    <a class="lv3" href="#找到要的那几条">找到要的那几条</a>
+    <a class="lv3" href="#选中与多选">选中与多选</a>
+    <a class="lv3" href="#添加国名">添加国名</a>
+    <a class="lv3" href="#自动定位-推荐开着">自动定位（推荐开着）</a>
+    <a class="lv3" href="#编辑与删除">编辑与删除</a>
+    <a class="lv3" href="#排序">排序</a>
+    <a class="lv3" href="#导入字库">导入字库</a>
+    <a class="lv2" href="#3-前缀页-后缀页">3. 前缀页 / 后缀页</a>
+    <a class="lv2" href="#4-区域页">4. 区域页</a>
+    <a class="lv2" href="#5-生成">5. 生成</a>
+    <a class="lv2" href="#6-工程的保存与打开">6. 工程的保存与打开</a>
+    <a class="lv3" href="#路径都是-相对本工具-的">路径都是「相对本工具」的</a>
+    <a class="lv3" href="#重置路径-工程是从别人那儿拿来的就用它">〔重置路径〕——工程是从别人那儿拿来的就用它</a>
+    <a class="lv2" href="#7-常见问题">7. 常见问题</a>
+    <a class="lv2" href="#8-上手-联机与授权">8. 上手、联机与授权</a>
+    <a class="lv3" href="#8-1-四步上手">8.1 四步上手</a>
+    <a class="lv3" href="#8-2-联机-双方必须同一套国名">8.2 联机：双方必须同一套国名</a>
+    <a class="lv3" href="#8-3-授权与说明">8.3 授权与说明</a></nav>
+  <main>
+    <h1 id="组词自定义国名工具-用户手册">组词自定义国名工具 · 用户手册</h1>
+    <p>欢迎使用组词自定义国名模组和工具！（暂不提供英文版）</p>
+    <p>给「组合造词国名」模组配字库的图形工具：管理国名 / 前缀 / 后缀 / 区域， 一键生成模组文件。本文讲<strong>怎么用</strong>；开发者文档见 <a href="../README.md">README</a>。</p>
+    <p>&gt; 铁人模式用不了，联机要跟朋友交换工程文件 —— 这两条务必先看第 8 节。 &gt; 只想赶紧上手的话，翻到第 8.1 节，四步就能生成。</p>
+    <p>手册里的截图都是真窗口的实拍，出自 <code>shots.py</code> 自动截图，跟着界面改版重跑即可。</p>
+    <hr>
+    <h2 id="1-认识窗口">1. 认识窗口</h2>
+    <p>双击 <code>组词自定义国名工具.exe</code> 打开，长这样：</p>
+    <figure><a href="shots/01-main.png" target="_blank" rel="noreferrer"><img src="shots/01-main.png" alt="主界面"></a><figcaption>图：主界面</figcaption></figure>
+    <ul><li><strong>顶栏</strong>：重置路径 / 打开工程 / 新建工程 / 保存（Ctrl+S）/ 另存为 / 深浅主题切换 ◐ / 退出。</li><li><strong>左侧页签</strong>：国名、前缀、后缀、区域、生成，名字旁边是各自的数量。</li><li><strong>左下角「规模」</strong>：当前工程的预生成组合数、事件数、总页数、每页选项数， 改动字库后数字实时跟着变 —— 想知道「再加一个名字会多重」，看这里就行。</li></ul>
+    <p>窗口是正经的桌面窗口，不是浏览器标签页；大小会自动记住，下次开还一样。</p>
+    <h3 id="深色主题">深色主题</h3>
+    <p>点顶栏的 ◐ 切换深浅色，<strong>Windows 标题栏会一起变</strong>：</p>
+    <figure><a href="shots/10-dark.png" target="_blank" rel="noreferrer"><img src="shots/10-dark.png" alt="深色主题"></a><figcaption>图：深色主题</figcaption></figure>
+    <hr>
+    <h2 id="2-国名页">2. 国名页</h2>
+    <p>日常待得最久的页签。表格列：#、区域、国名、拼音、TAG、备注。</p>
+    <h3 id="找到要的那几条">找到要的那几条</h3>
+    <ul><li><strong>搜索框</strong>：同时匹配国名 / TAG / 备注，边打边筛。</li><li><strong>区域下拉</strong>：只看某一个区域。</li><li><strong>分页</strong>：右下角 « ‹ › » 翻页，每页条数可选（50 / 100 / 200 / 500）。</li></ul>
+    <h3 id="选中与多选">选中与多选</h3>
+    <figure><a href="shots/02-select.png" target="_blank" rel="noreferrer"><img src="shots/02-select.png" alt="选中"></a><figcaption>图：选中</figcaption></figure>
+    <ul><li><strong>单击</strong>选中一行，<strong>Shift + 单击</strong> 连选一段，行首复选框可以逐个勾。 注意：没有 Ctrl 逐个加选这回事，别按着 Ctrl 点了。</li><li>选中后整行变色，页脚显示「已选 N 条」。</li></ul>
+    <h3 id="添加国名">添加国名</h3>
+    <figure><a href="shots/04-add.png" target="_blank" rel="noreferrer"><img src="shots/04-add.png" alt="添加国名"></a><figcaption>图：添加国名</figcaption></figure>
+    <p>点页签右上角〔添加国名〕：<strong>区域已经替你选好上次用的那个</strong>， 光标直接落在国名输入框上 —— 连续往同一区域塞名字时不用每次重选。</p>
+    <h3 id="自动定位-推荐开着">自动定位（推荐开着）</h3>
+    <p>工具栏上的开关，默认开。开了之后，每加完一条会<strong>自动翻到那一行所在的页、 选中它，并蓝闪 1.8 秒</strong>：</p>
+    <figure><a href="shots/05-follow.png" target="_blank" rel="noreferrer"><img src="shots/05-follow.png" alt="自动定位"></a><figcaption>图：自动定位</figcaption></figure>
+    <p>如果当前的搜索词或区域筛选正好把新行挡住了，会顺手把筛选清掉， 不然翻过去也看不见。开关状态会记住，重开程序还是上次的值。</p>
+    <h3 id="编辑与删除">编辑与删除</h3>
+    <figure><a href="shots/03-edit.png" target="_blank" rel="noreferrer"><img src="shots/03-edit.png" alt="编辑国名"></a><figcaption>图：编辑国名</figcaption></figure>
+    <ul><li><strong>双击任意一行</strong>就是编辑（或选中一行点〔编辑〕）。</li><li>〔删除〕删掉勾选的行；〔批量删除〕支持按「当前筛选结果 / 区域内重名 / 全部」删， 清理重复项时用它。</li></ul>
+    <h3 id="排序">排序</h3>
+    <ul><li>右上角排序下拉：一键按区域+拼音等规则整表重排。</li><li>〔↑〕〔↓〕把选中的一行单独上移 / 下移。</li><li>排序只影响游戏里出现的顺序，<strong>不影响</strong>「按添加顺序还原」—— 每条国名有个稳定的添加序号，随时可以从排序下拉里恢复。</li></ul>
+    <h3 id="导入字库">导入字库</h3>
+    <p>〔导入字库〕从「区域-tag-国名对照表.md」整表灌入，已存在的自动跳过。 第一次建工程用它最快。</p>
+    <hr>
+    <h2 id="3-前缀页-后缀页">3. 前缀页 / 后缀页</h2>
+    <figure><a href="shots/06-prefix.png" target="_blank" rel="noreferrer"><img src="shots/06-prefix.png" alt="前缀"></a><figcaption>图：前缀</figcaption></figure>
+    <figure><a href="shots/07-suffix.png" target="_blank" rel="noreferrer"><img src="shots/07-suffix.png" alt="后缀"></a><figcaption>图：后缀</figcaption></figure>
+    <p>两个页签操作完全一样：添加 / 双击编辑 / 删除 / 上移下移 / 按拼音排序。 右侧「示例」列实时显示「前缀＋第一个国名」拼出来是什么样，不用脑补。</p>
+    <p><strong>顺序 = 游戏里出现顺序</strong>：决议里选前缀时按这个列表从上往下排， 想把常用的放前面就挪上去（或排完拼音）。</p>
+    <hr>
+    <h2 id="4-区域页">4. 区域页</h2>
+    <figure><a href="shots/08-regions.png" target="_blank" rel="noreferrer"><img src="shots/08-regions.png" alt="区域"></a><figcaption>图：区域</figcaption></figure>
+    <p>添加 / 改名 / 删除 / 上移下移。<strong>顺序 = 游戏里「选择区域」的弹出顺序</strong>， 同样是把常用的放前面。</p>
+    <p>区域「标识」只在大写字母 / 数字 / 下划线，它会写进事件 id 和本地化 key， 建好之后界面上不让改 —— 起名时想好。</p>
+    <hr>
+    <h2 id="5-生成">5. 生成</h2>
+    <figure><a href="shots/09-build.png" target="_blank" rel="noreferrer"><img src="shots/09-build.png" alt="生成页"></a><figcaption>图：生成页</figcaption></figure>
+    <table><thead><tr><th>字段</th><th>说明</th></tr></thead><tbody><tr><td>输出目录（选择组词自定义国名模组文件夹）</td><td>模组生成到哪，默认 <code>生成的mod/</code>（相对工具目录）。〔浏览〕弹资源管理器选文件夹；路径要是别人机器上的，用顶栏〔重置路径〕</td></tr><tr><td>模组名</td><td>显示在 EU4 启动器 playset 里的名字，默认「组词自定义国名」</td></tr><tr><td>命名空间</td><td>事件 id 前缀，别和别的模组撞即可</td></tr><tr><td>每页选项数</td><td>单个事件里最多列多少个国名（引擎硬限制 33，默认 28 留了余量）</td></tr></tbody></table>
+    <p><strong>规模预览</strong>实时算出：预生成组合数、事件数、总页数、每页选项。</p>
+    <p>点〔生成模组〕后注意三件事：</p>
+    <ol><li>生成器会<strong>先删掉输出目录里所有上一版生成的 <code>hz_*</code> 文件</strong>再写新的， 所以输出目录里<strong>别放自己的东西</strong>。</li><li>生成完把输出目录挂进启动器 playset。</li><li><strong>彻底重开游戏</strong>才生效 —— EU4 只在启动时读模组，Continue 旧存档没用。</li></ol>
+    <p>&gt; 铁人模式<strong>用不了</strong>（会改校验码），联机要跟朋友交换工程文件 —— 都在第 8 节。 &gt; 不知道「模组文件夹」在哪，看第 7 节的 Q3。</p>
+    <p>规模参考：970 国名 / 8 前缀 / 8 后缀 ≈ 78,570 种组合、46 个事件、约 25 MB。 <strong>往区域里加名字是最便宜的扩容</strong>（不增加事件数），加前缀 / 后缀的组合数成本高得多。</p>
+    <hr>
+    <h2 id="6-工程的保存与打开">6. 工程的保存与打开</h2>
+    <ul><li>所有内容存在一个 <code>.hznproj</code> 工程文件里（UTF-8 JSON，手工可改）， 顶栏〔保存〕或 <strong>Ctrl+S</strong> 随时存。</li><li>〔打开工程〕和〔另存为〕都弹 <strong>Windows 资源管理器那套对话框</strong> （选文件的那个窗口），起点就是 <code>工程文件/</code> 目录，不用手抄路径。 另存为会以当前工程名预填文件名。</li><li>新建的工程第一次点〔保存〕时，因为没有落过盘，会自动转成〔另存为〕让你选位置。</li><li>工程文件默认落在 <code>工程文件/</code>，生成的模组默认落在 <code>生成的mod/</code>。</li></ul>
+    <p>打开工程之后注意看<strong>顶栏的路径</strong>和 toast 提示：工程的「名字」可能跟别的工程一样 （两个工程都叫「原版字库」很常见），光看名字会以为没打开。</p>
+    <h3 id="路径都是-相对本工具-的">路径都是「相对本工具」的</h3>
+    <ul><li><strong>工程文件</strong>存在工具根目录下的 <code>工程文件/</code> 里 —— 打开 / 另存为的对话框就是从 那儿开始的，不用去别处找。</li><li><strong>输出目录</strong>默认是工具根目录下的 <code>生成的mod/</code>。</li><li>工程里存的是<strong>相对路径</strong>（比如 <code>生成的mod</code>），生成时才换算成本机绝对路径。 所以整个工具文件夹换个盘、改个名、拷给别人，路径都还指得对。 填绝对路径也行（比如直接指到 EU4 的 mod 文件夹），那就按你填的来。</li></ul>
+    <h3 id="重置路径-工程是从别人那儿拿来的就用它">〔重置路径〕——工程是从别人那儿拿来的就用它</h3>
+    <p>工程文件里会带着<strong>上一个人机器上</strong>的路径。别人的输出目录可能是 <code>D:\...\mod\组词自定义国名</code>，而你这台机器根本没有 D 盘 —— 直接生成，模组会 落到一个莫名其妙的地方（或者干脆建目录失败）。</p>
+    <p>这时候点顶栏最左边的〔重置路径〕：把输出目录拉回<strong>你这台机器</strong>工具目录下的 <code>生成的mod/</code>，确认后点〔保存〕写回工程。以后再用就不必反复点了。</p>
+    <h2 id="7-常见问题">7. 常见问题</h2>
+    <p><strong>铁人模式可以用吗？</strong></p>
+    <p><strong>不可以。</strong> 选国名是靠一大批事件实现的，而<strong>加事件会改变校验码</strong> —— 铁人模式的 存档校验不过，成就也拿不到。想玩铁人就别挂这个模组。</p>
+    <p><strong>联机可以用吗？要注意什么？</strong></p>
+    <p>可以，但<strong>双方的国名必须是同一套</strong>。联机前把你的 <code>.hznproj</code> 工程文件发给朋友， 让他用本工具<strong>重新生成一次</strong>模组文件（不是把生成的 mod 文件拷过去就算 —— 要走一遍 生成器，双方产物才逐字节一致）。详见 8.2 节。</p>
+    <p><strong>怎么找到「模组文件夹」？</strong></p>
+    <p>打开 P 社启动器 → 找到「组词自定义国名」这个 mod → 右边三个点 → <strong>「在文件夹中显示」</strong>， 弹出来的就是你的模组文件夹。把它填进〔生成〕页的输出目录即可（见 8.1 节第 3 步）。</p>
+    <p><strong>生成了但游戏里没变化？</strong> 按顺序查：输出目录挂进当前使用的 playset 了吗 → 彻底重开游戏了吗 → 生成的模组在启动器里打勾了吗。EU4 只在启动时读模组。</p>
+    <p><strong>界面提示找不到 pypinyin？</strong> 国名排序退回了码点序。装一下就好：<code>pip install pypinyin</code>（exe 版自带，不受影响）。</p>
+    <p><strong>左下角「预生成组合」数字怎么算的？</strong> 每个区域的字数 ×（1 + 前缀数 + 后缀数 + 前缀×后缀）再对全部区域求和。 想控制规模，优先加国名，别急着加前后缀。</p>
+    <p><strong>深色主题下标题栏没变？</strong> 极少数机器上 DWM 设置会慢半拍，切一次主题来回就好。</p>
+    <hr>
+    <h2 id="8-上手-联机与授权">8. 上手、联机与授权</h2>
+    <h3 id="8-1-四步上手">8.1 四步上手</h3>
+    <ol><li>双击 <code>组词自定义国名工具.exe</code> 打开。</li><li>改成你想要的前缀 / 国名 / 后缀。</li><li>点〔生成〕页，把<strong>输出目录改成你的「模组文件夹」</strong>（第 7 节 Q3 教了怎么找）。 也可以不改 —— 那就生成到工具目录下的 <code>生成的mod/</code>，完事自己复制过去覆盖。</li><li>点〔生成模组〕，模组就更新好了。</li></ol>
+    <p>铁人模式的问题看第 7 节，联机的问题看 8.2。</p>
+    <h3 id="8-2-联机-双方必须同一套国名">8.2 联机：双方必须同一套国名</h3>
+    <p>EU4 联机有校验码，<strong>所有人的模组内容必须完全一致</strong>。所以：</p>
+    <ol><li>把你自己的 <code>.hznproj</code> <strong>工程文件</strong>发给朋友（就在工具目录的 <code>工程文件/</code> 里）。</li><li>朋友用本工具<strong>打开这个工程</strong>，点一下〔生成模组〕重新生成一次。 —— 关键是「走一遍生成器」，这样两边产物才逐字节相同；直接拷生成的 mod 文件夹过去也行，但一旦他改过字库就对不上了。</li><li>双方用同一份工程、同一次生成的结果进游戏。</li></ol>
+    <p>工程里存的是<strong>相对路径</strong>，所以朋友拿到后先在〔生成〕页确认输出目录是他自己的 模组文件夹；要是指向了别人机器上的路径（比如你没有那个盘），点顶栏〔重置路径〕。</p>
+    <h3 id="8-3-授权与说明">8.3 授权与说明</h3>
+    <ul><li>本工具为<strong>开源工具，请勿商用</strong>。</li><li>本工具和模组仅供交流学习与讨论，<strong>切勿上升现实</strong>。</li><li>想要更详细的说明，就是你现在看的这份 <code>docs/用户手册.html</code>。</li></ul>
+    <p><strong>生成之后找不到模组文件？</strong> 看〔生成〕页输出目录框里填的是什么 —— 相对路径（如 <code>生成的mod</code>）就落在工具目录下。 要是那里填的是别人机器上的路径（比如你根本没有那个盘），点顶栏〔重置路径〕再生成一次。</p>
+  </main>
+</div>
+<script>
+(function(){
+  var doc=document.documentElement;
+  var btn=document.getElementById('btnTheme');
+  var saved='';
+  try{saved=localStorage.getItem('hz-manual-theme')||''}catch(e){}
+  function set(t){
+    doc.setAttribute('data-theme',t);
+    btn.textContent = t==='dark' ? '☀ 浅色' : '◐ 深色';
+    try{localStorage.setItem('hz-manual-theme',t)}catch(e){}
+  }
+  set(saved==='dark'?'dark':'light');
+  btn.onclick=function(){ set(doc.getAttribute('data-theme')==='dark'?'light':'dark'); };
+  document.getElementById('btnTop').onclick=function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  };
+  // 目录高亮：滚到哪一节就把对应链接点亮
+  var links=[].slice.call(document.querySelectorAll('#toc a'));
+  var heads=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1))});
+  function mark(){
+    var y=window.scrollY+120,best=0;
+    heads.forEach(function(h,i){ if(h && h.offsetTop<=y) best=i; });
+    links.forEach(function(a,i){ a.classList.toggle('on', i===best); });
+  }
+  window.addEventListener('scroll',mark,{passive:true});
+  window.addEventListener('resize',mark);
+  mark();
+})();
+</script>
+</body>
+</html>
