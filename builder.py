@@ -9,10 +9,20 @@ import os
 import sys
 
 import paths                                             # noqa: E402
-HERE = paths.APP_HOME                                    # tools/自定义国名生成器
-TOOLS = paths.TOOLS                                      # tools
-if TOOLS not in sys.path:
-    sys.path.insert(0, TOOLS)
+
+HERE = paths.APP_HOME                                    # 打包后 = exe 所在目录
+TOOLS = paths.TOOLS                                      # .../tools
+
+# 引擎三件套（gen_namebuilder / region_names / eu4_loc_codec）的查找顺序：
+#   1) HERE       打包进 exe 的那份；仓库/发布形态的源码也放在这儿
+#   2) tools/     工作区形态
+#   3) skill 库   兜底
+# 打包时这三个模块会被一起打进 exe，所以发出去的单 exe 不依赖磁盘上有没有 tools/。
+_SKILL = os.path.expanduser(os.path.join('~', '.workbuddy', 'skills',
+                                         'eu4-mod-core', 'scripts'))
+for _c in reversed([c for c in (HERE, TOOLS, _SKILL) if c and os.path.isdir(c)]):
+    if _c not in sys.path:
+        sys.path.insert(0, _c)
 
 import project as P                                      # noqa: E402
 

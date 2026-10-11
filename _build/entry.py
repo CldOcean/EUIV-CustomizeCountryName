@@ -3,7 +3,7 @@ import os
 import sys
 import traceback
 
-_HERE = 'F:\\WorkPlace\\.ProjectsDateless\\自定义国名\\tools\\组词自定义国名工具'
+_HERE = 'F:\\WorkPlace\\.ProjectsDateless\\自定义国名\\tools\\组词自定义国名工具 - github'
 _LOG = os.path.join(_HERE, 'error.log')
 sys.path.insert(0, _HERE)
 

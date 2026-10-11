@@ -28,6 +28,9 @@ ICON = os.path.join(BUILD, 'app.ico')
 
 EXE_NAME = '组词自定义国名工具'
 
+# 字库表：单独一个文件，不在代码目录里（工作区形态在上一级），打包时要带上
+MD_NAME = '区域-tag-国名对照表.md'
+
 # 入口脚本：exe 双击就直接开原生窗口。
 #
 # 另外做两件窗口模式下很关键的事：
@@ -165,13 +168,44 @@ def build(icon, name=EXE_NAME):
     with open(entry, 'w', encoding='utf-8') as f:
         f.write(ENTRY % (HERE,))
 
+    # 引擎三件套（gen_namebuilder / region_names / eu4_loc_codec）在两种形态下
+    # 位置不同：工作区形态在上一级 tools/，仓库/发布形态就在本目录。
+    # 两个都交给 --paths，PyInstaller 顺着 import 就会把它们打进 exe ——
+    # 这样发出去的单 exe 不再依赖磁盘上有没有 tools/ 目录。
+    paths = [HERE]
+    up = os.path.dirname(HERE)
+    if os.path.isfile(os.path.join(up, 'gen_namebuilder.py')):
+        paths.append(up)
+
+    # 字库表：`区域-tag-国名对照表.md` 也要打进 exe —— region_names.py 与
+    # project.py（导入原版字库）都读它，不带上就 FileNotFoundError。
+    # 它不在代码目录里：工作区形态在工作区根（HERE 的上两级），仓库形态在 HERE。
+    md = None
+    for c in (os.path.join(HERE, MD_NAME),
+              os.path.join(os.path.dirname(HERE), MD_NAME),
+              os.path.join(os.path.dirname(os.path.dirname(HERE)), MD_NAME)):
+        if os.path.isfile(c):
+            md = c
+            break
+    if not md:
+        print('  [!!] 找不到 %s，打出来的 exe 用不了「导入原版字库」' % MD_NAME)
+    else:
+        print('  字库表 %s' % md)
+
     cmd = [PY, '-m', 'PyInstaller',
            '--noconfirm', '--clean', '--onefile', '--windowed',
            '--name', name,
            '--distpath', HERE,
            '--workpath', os.path.join(BUILD, 'work'),
            '--specpath', BUILD,
-           '--paths', HERE,
+           ]
+    for p in paths:
+        cmd += ['--paths', p]
+    cmd += [
+           # 显式点名，免得哪天 import 挪进函数里被静态分析漏掉
+           '--hidden-import', 'gen_namebuilder',
+           '--hidden-import', 'region_names',
+           '--hidden-import', 'eu4_loc_codec',
            # pywebview 自带的 JS / pythonnet 的 runtime DLL 都是数据文件，
            # 不 collect 的话打进去也跑不起来
            '--collect-all', 'webview',
@@ -182,6 +216,8 @@ def build(icon, name=EXE_NAME):
            '--add-data', os.path.join(HERE, 'web', 'static') + os.pathsep
            + os.path.join('web', 'static'),
            ]
+    if md:
+        cmd += ['--add-data', md + os.pathsep + '.']
     if icon and os.path.isfile(icon):
         cmd += ['--icon', icon]
     cmd.append(entry)

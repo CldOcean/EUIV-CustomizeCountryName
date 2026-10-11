@@ -1,9 +1,9 @@
 # -*- mode: python ; coding: utf-8 -*-
 from PyInstaller.utils.hooks import collect_all
 
-datas = [('F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具/web/static', 'web/static')]
+datas = [('F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具 - github/web/static', 'web/static'), ('F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具 - github/区域-tag-国名对照表.md', '.')]
 binaries = []
-hiddenimports = []
+hiddenimports = ['gen_namebuilder', 'region_names', 'eu4_loc_codec']
 tmp_ret = collect_all('webview')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 tmp_ret = collect_all('pythonnet')
@@ -15,8 +15,8 @@ datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 
 a = Analysis(
-    ['F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具/_build/entry.py'],
-    pathex=['F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具'],
+    ['F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具 - github/_build/entry.py'],
+    pathex=['F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具 - github', 'F:/WorkPlace/.ProjectsDateless/自定义国名/tools'],
     binaries=binaries,
     datas=datas,
     hiddenimports=hiddenimports,
@@ -48,5 +48,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具/_build/app.ico'],
+    icon=['F:/WorkPlace/.ProjectsDateless/自定义国名/tools/组词自定义国名工具 - github/_build/app.ico'],
 )

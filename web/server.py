@@ -35,6 +35,7 @@ GUI = paths.APP_HOME                                     # 自定义国名生成
 TOOLS = paths.TOOLS                                      # tools/
 
 import project as P          # noqa: E402
+import region_names as RN    # noqa: E402  字库表的定位（工作区 / 仓库 / exe 三形态）
 import builder               # noqa: E402
 import winapi                # noqa: E402
 
@@ -104,7 +105,7 @@ class Session(object):
                 return
             except Exception:
                 pass
-        md = os.path.join(P.ROOT, '区域-tag-国名对照表.md')
+        md = RN.find_md()
         if os.path.isfile(md):
             p = P.Project.new_from_vanilla('原版字库')
         else:
@@ -360,7 +361,7 @@ def api_names_dedup(_body):
 def api_names_import(body):
     pr = SESSION.require()
     replace = bool((body or {}).get('replace'))
-    md = os.path.join(P.ROOT, '区域-tag-国名对照表.md')
+    md = RN.find_md()
     if not os.path.isfile(md):
         raise ValueError('找不到 区域-tag-国名对照表.md')
     added, skipped, missed = pr.import_md(md, replace=replace)

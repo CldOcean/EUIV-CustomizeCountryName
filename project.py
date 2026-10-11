@@ -181,7 +181,13 @@ class Project(object):
     def new_from_vanilla(cls, name='原版字库'):
         """从 区域-tag-国名对照表.md 起一份工程"""
         p = cls.new_empty(name)
-        md = os.path.join(ROOT, '区域-tag-国名对照表.md')
+        # md 的定位交给 region_names.find_md：工作区 / 仓库 / 打包后 exe
+        # 三种形态各在不同的地方，paths.ROOT 推不出来（打包后它是 exe 的上一级）。
+        try:
+            from region_names import find_md
+            md = find_md()
+        except Exception:
+            md = os.path.join(ROOT, '区域-tag-国名对照表.md')
         if os.path.isfile(md):
             p.import_md(md, replace=True)
         return p
