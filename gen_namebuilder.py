@@ -27,6 +27,11 @@ tools/region_names.py 负责解析它 + 按中文拼音排序 + 区域内去重�
   localisation\hz_nb_name_<区域>_l_english.yml     各区域的候选名 + 成品名（编码版）
   localisation_decoded\hz_nb_*_l_english.yml       同上两份的明文版（引擎不读，改文案只改这里）
 
+国名 / 形容词成对出现（每个国名 key 都配一份 `<key>_ADJ`，值相同）：
+  引擎的 `override_country_name` 只改**国名**，形容词是它拿同一个 key 再拼 `_ADJ`
+  去查的另一条路线（本体 `CHINA_STRING` + `CHINA_STRING_ADJ` 就是这个约定），
+  所以被 override 的每个 key 都必须带 `_ADJ`，否则改名后形容词还是原 TAG 的。
+
 两条核心设计：
   1. **事件链共享**：前缀/区域/后缀三个事件全模板共用，只有"选国名"按区域分裂。
      所以事件数 = 4 + 区域数，与字库大小无关。
@@ -645,7 +650,11 @@ def out_custom_loc():
 
 def out_localisation():
     """返回 {basename: entries}；每个 basename 出两份：
-    localisation/ 下的编码版 + localisation_decoded/ 下的明文版（v2 形态）。"""
+    localisation/ 下的编码版 + localisation_decoded/ 下的明文版（v2 形态）。
+
+    每个国名 key 都会多出一份 `<key>_ADJ`（形容词，值 = 国名）——
+    `override_country_name` 只改国名，形容词由引擎按 `key + '_ADJ'` 另查。
+    """
 
     # --- UI ---
     ui = [('HZ_NB_EMPTY', 0, '')]
@@ -703,15 +712,26 @@ def out_localisation():
 
     groups = {'hz_nb_ui': ui}
 
-    # --- 各区域：候选名 + 成品名 ---
+    # --- 各区域：候选名 + 成品名（并且都带一份 _ADJ 形容词）---
+    #
+    # 形容词为什么要单独出一份：`override_country_name` 只管**国名**，
+    # 形容词是另一条查表路线 —— 引擎拿同一个 key 再拼 `_ADJ` 去查
+    # （本体实证：`override_country_name = CHINA_STRING` 对应
+    #   `CHINA_STRING:0 "China"` + `CHINA_STRING_ADJ:0 "Chinese"`；
+    #   TURKEY_STRING / GURKANI_EMPIRE_STRING 等同款成对出现）。
+    # 所以**凡是会被 override 的 key 都必须有 `_ADJ`**，否则改名后形容词还是旧 TAG 的。
+    # 这里按需求让形容词 = 同一个国名，直接复制值。
     for rid, rname, _ns in REGIONS:
         e = []
         for gw in REGION_BODY[rid]:
             t = BODY[gw - 1]
             e.append(('HZ_NB_CH_B_%s' % idx2(gw), 0, t))
             e.append(('%s.cB_%s' % (NS, idx2(gw)), 0, t))
+            e.append(('HZ_NB_CH_B_%s_ADJ' % idx2(gw), 0, t))
         for pat, d, _g in region_combos(rid):
-            e.append((name_key(pat, d), 0, name_text(d)))
+            k, t = name_key(pat, d), name_text(d)
+            e.append((k, 0, t))
+            e.append((k + '_ADJ', 0, t))
         groups['hz_nb_name_%s' % rid] = e
     return groups
 
